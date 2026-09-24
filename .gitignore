@@ -1,0 +1,40 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Data (raw is immutable and never committed; track lineage via DVC later)
+data/raw/**
+data/interim/**
+data/processed/**
+data/external/**
+!data/**/.gitkeep
+
+# ML artifacts (root-anchored: must not hide src/floodguard/models/)
+/mlruns/
+/artifacts/
+/models/
+*.pkl
+*.joblib
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Tooling
+graphify-out/
+graph.json
+node_modules/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db

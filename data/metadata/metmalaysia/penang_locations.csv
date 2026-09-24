@@ -1,0 +1,29 @@
+location_id,location_name,location_category,state,state_evidence,in_api_forecast_20260924
+St003,Pulau Pinang,state,Pulau Pinang,https://www.met.gov.my/forecast/weather/state/ (state option),yes
+Ds011,Barat Daya,district,Pulau Pinang,https://www.met.gov.my/forecast/weather/district/ (Pulau Pinang optgroup),yes
+Ds012,Timur Laut,district,Pulau Pinang,https://www.met.gov.my/forecast/weather/district/ (Pulau Pinang optgroup),yes
+Ds013,Seberang Perai Utara,district,Pulau Pinang,https://www.met.gov.my/forecast/weather/district/ (Pulau Pinang optgroup),yes
+Ds014,Seberang Perai Tengah,district,Pulau Pinang,https://www.met.gov.my/forecast/weather/district/ (Pulau Pinang optgroup),yes
+Ds017,Seberang Perai Selatan,district,Pulau Pinang,https://www.met.gov.my/forecast/weather/district/ (Pulau Pinang optgroup),yes
+Tn009,Balik Pulau,town,Pulau Pinang,https://www.met.gov.my/forecast/weather/town/ (Pulau Pinang optgroup),yes
+Tn010,Ayer Itam,town,Pulau Pinang,https://www.met.gov.my/forecast/weather/town/ (Pulau Pinang optgroup),yes
+Tn012,Kepala Batas,town,Pulau Pinang,https://www.met.gov.my/forecast/weather/town/ (Pulau Pinang optgroup),yes
+Tn013,Georgetown,town,Pulau Pinang,https://www.met.gov.my/forecast/weather/town/ (Pulau Pinang optgroup),yes
+Tn014,Butterworth,town,Pulau Pinang,https://www.met.gov.my/forecast/weather/town/ (Pulau Pinang optgroup),yes
+Tn015,Bayan Lepas,town,Pulau Pinang,https://www.met.gov.my/forecast/weather/town/ (Pulau Pinang optgroup),yes
+Tn016,Perai,town,Pulau Pinang,https://www.met.gov.my/forecast/weather/town/ (Pulau Pinang optgroup),yes
+Tn017,Bukit Tengah,town,Pulau Pinang,https://www.met.gov.my/forecast/weather/town/ (Pulau Pinang optgroup),yes
+Tn018,Bukit Mertajam,town,Pulau Pinang,https://www.met.gov.my/forecast/weather/town/ (Pulau Pinang optgroup),yes
+Tn019,Batu Kawan,town,Pulau Pinang,https://www.met.gov.my/forecast/weather/town/ (Pulau Pinang optgroup),yes
+Tn022,Nibong Tebal,town,Pulau Pinang,https://www.met.gov.my/forecast/weather/town/ (Pulau Pinang optgroup),yes
+Tn160,Bayan Baru,town,Pulau Pinang,https://www.met.gov.my/forecast/weather/town/ (Pulau Pinang optgroup),yes
+Tn167,Sungai Dua - Sungai Nibong,town,Pulau Pinang,https://www.met.gov.my/forecast/weather/town/ (Pulau Pinang optgroup),yes
+Tn170,Gelugor,town,Pulau Pinang,https://www.met.gov.my/forecast/weather/town/ (Pulau Pinang optgroup),yes
+Tn172,Tanjung Bungah,town,Pulau Pinang,https://www.met.gov.my/forecast/weather/town/ (Pulau Pinang optgroup),yes
+Tn173,Tanjung Tokong,town,Pulau Pinang,https://www.met.gov.my/forecast/weather/town/ (Pulau Pinang optgroup),yes
+Tn175,Sungai Ara,town,Pulau Pinang,https://www.met.gov.my/forecast/weather/town/ (Pulau Pinang optgroup),yes
+Tn176,Juru,town,Pulau Pinang,https://www.met.gov.my/forecast/weather/town/ (Pulau Pinang optgroup),yes
+Tn177,Jawi,town,Pulau Pinang,https://www.met.gov.my/forecast/weather/town/ (Pulau Pinang optgroup),yes
+Rc002,Taman Negara Pulau Pinang,recreation_centre,Pulau Pinang,https://www.met.gov.my/forecast/weather/tourist/ (Pulau Pinang optgroup),yes
+Rc003,Batu Feringgi,recreation_centre,Pulau Pinang,https://www.met.gov.my/forecast/weather/tourist/ (Pulau Pinang optgroup),yes
+Rc004,Bukit Bendera,recreation_centre,Pulau Pinang,https://www.met.gov.my/forecast/weather/tourist/ (Pulau Pinang optgroup),yes

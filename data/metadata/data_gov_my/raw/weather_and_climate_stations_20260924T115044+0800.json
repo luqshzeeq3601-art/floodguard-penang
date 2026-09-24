@@ -1,0 +1,257 @@
+{
+ "_floodguard_note": "dropdown (42 stations) verbatim from __NEXT_DATA__.props.pageProps of /dashboard/weather-and-climate/bayan-lepas",
+ "dropdown": [
+  {
+   "station": "Pulau Langkawi, Kedah",
+   "lat": 6.333333,
+   "lon": 99.733333,
+   "slug": "pulau-langkawi"
+  },
+  {
+   "station": "Bayan Lepas, Pulau Pinang",
+   "lat": 5.297222,
+   "lon": 100.272222,
+   "slug": "bayan-lepas"
+  },
+  {
+   "station": "Butterworth, Pulau Pinang",
+   "lat": 5.457222,
+   "lon": 100.388333,
+   "slug": "butterworth"
+  },
+  {
+   "station": "Alor Setar, Kedah",
+   "lat": 6.2,
+   "lon": 100.4,
+   "slug": "alor-setar"
+  },
+  {
+   "station": "Chuping, Perlis",
+   "lat": 6.483333,
+   "lon": 100.266667,
+   "slug": "chuping"
+  },
+  {
+   "station": "Kota Bharu, Kelantan",
+   "lat": 6.163611,
+   "lon": 102.300556,
+   "slug": "kota-bharu"
+  },
+  {
+   "station": "Kuala Krai, Kelantan",
+   "lat": 5.533333,
+   "lon": 102.2,
+   "slug": "kuala-krai"
+  },
+  {
+   "station": "Gong Kedak, Terengganu",
+   "lat": 5.796667,
+   "lon": 102.485,
+   "slug": "gong-kedak"
+  },
+  {
+   "station": "Kuala Terengganu, Terengganu",
+   "lat": 5.383333,
+   "lon": 103.1,
+   "slug": "kuala-terengganu"
+  },
+  {
+   "station": "Kerteh, Terengganu",
+   "lat": 4.537222,
+   "lon": 103.426667,
+   "slug": "kerteh"
+  },
+  {
+   "station": "Sitiawan, Perak",
+   "lat": 4.221111,
+   "lon": 100.701111,
+   "slug": "sitiawan"
+  },
+  {
+   "station": "Lubok Merbau, Perak",
+   "lat": 4.794444,
+   "lon": 100.897222,
+   "slug": "lubok-merbau"
+  },
+  {
+   "station": "Ipoh, Perak",
+   "lat": 4.566667,
+   "lon": 101.1,
+   "slug": "ipoh"
+  },
+  {
+   "station": "Cameron Highlands, Pahang",
+   "lat": 4.466667,
+   "lon": 101.366667,
+   "slug": "cameron-highlands"
+  },
+  {
+   "station": "Batu Embun, Pahang",
+   "lat": 3.966667,
+   "lon": 102.35,
+   "slug": "batu-embun"
+  },
+  {
+   "station": "Subang, Selangor",
+   "lat": 3.130556,
+   "lon": 101.5525,
+   "slug": "subang"
+  },
+  {
+   "station": "Petaling Jaya, Selangor",
+   "lat": 3.101944,
+   "lon": 101.645,
+   "slug": "petaling-jaya"
+  },
+  {
+   "station": "Muadzam Shah, Selangor",
+   "lat": 3.05,
+   "lon": 103.083333,
+   "slug": "muadzam-shah"
+  },
+  {
+   "station": "KLIA Sepang, Selangor",
+   "lat": 2.730833,
+   "lon": 101.703056,
+   "slug": "klia-sepang"
+  },
+  {
+   "station": "Kuala Pilah, Negeri Sembilan",
+   "lat": 2.726944,
+   "lon": 102.248889,
+   "slug": "kuala-pilah"
+  },
+  {
+   "station": "Temerloh, Pahang",
+   "lat": 3.466667,
+   "lon": 102.383333,
+   "slug": "temerloh"
+  },
+  {
+   "station": "Kuantan, Pahang",
+   "lat": 3.772222,
+   "lon": 103.211944,
+   "slug": "kuantan"
+  },
+  {
+   "station": "Melaka, Melaka",
+   "lat": 2.266667,
+   "lon": 102.25,
+   "slug": "melaka"
+  },
+  {
+   "station": "Batu Pahat, Johor",
+   "lat": 1.866667,
+   "lon": 102.983333,
+   "slug": "batu-pahat"
+  },
+  {
+   "station": "Kluang, Johor",
+   "lat": 2.016667,
+   "lon": 103.316667,
+   "slug": "kluang"
+  },
+  {
+   "station": "Mersing, Johor",
+   "lat": 2.445,
+   "lon": 103.833333,
+   "slug": "mersing"
+  },
+  {
+   "station": "Senai, Johor",
+   "lat": 1.633333,
+   "lon": 103.666667,
+   "slug": "senai"
+  },
+  {
+   "station": "Kuching, Sarawak",
+   "lat": 1.490278,
+   "lon": 110.3525,
+   "slug": "kuching"
+  },
+  {
+   "station": "Sri Aman, Sarawak",
+   "lat": 1.216667,
+   "lon": 111.45,
+   "slug": "sri-aman"
+  },
+  {
+   "station": "Kapit, Sarawak",
+   "lat": 2.008611,
+   "lon": 112.925278,
+   "slug": "kapit"
+  },
+  {
+   "station": "Sibu, Sarawak",
+   "lat": 2.25,
+   "lon": 111.966667,
+   "slug": "sibu"
+  },
+  {
+   "station": "Bintulu, Sarawak",
+   "lat": 3.12,
+   "lon": 113.024722,
+   "slug": "bintulu"
+  },
+  {
+   "station": "Miri, Sarawak",
+   "lat": 4.333333,
+   "lon": 113.983333,
+   "slug": "miri"
+  },
+  {
+   "station": "Mulu, Sarawak",
+   "lat": 4.048611,
+   "lon": 114.81,
+   "slug": "mulu"
+  },
+  {
+   "station": "Limbang, Sarawak",
+   "lat": 4.809722,
+   "lon": 115.004167,
+   "slug": "limbang"
+  },
+  {
+   "station": "Labuan, W.P. Labuan",
+   "lat": 5.3075,
+   "lon": 115.2425,
+   "slug": "labuan"
+  },
+  {
+   "station": "Keningau, Sabah",
+   "lat": 5.337222,
+   "lon": 116.136389,
+   "slug": "keningau"
+  },
+  {
+   "station": "Ranau, Sabah",
+   "lat": 5.956389,
+   "lon": 116.678889,
+   "slug": "ranau"
+  },
+  {
+   "station": "Kota Kinabalu, Sabah",
+   "lat": 5.9325,
+   "lon": 116.0475,
+   "slug": "kota-kinabalu"
+  },
+  {
+   "station": "Kudat, Sabah",
+   "lat": 6.916667,
+   "lon": 116.833333,
+   "slug": "kudat"
+  },
+  {
+   "station": "Tawau, Sabah",
+   "lat": 4.316111,
+   "lon": 118.118889,
+   "slug": "tawau"
+  },
+  {
+   "station": "Sandakan, Sabah",
+   "lat": 5.899167,
+   "lon": 118.066389,
+   "slug": "sandakan"
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+# FloodGuard Penang - local development baseline.
+# Only PostgreSQL/PostGIS for now; other services are added when their phase starts.
+# Defaults below are development-only. Override via environment or a local .env file.
+name: floodguard
+
+services:
+  db:
+    image: postgis/postgis:17-3.5
+    container_name: floodguard-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-floodguard}
+      POSTGRES_USER: ${POSTGRES_USER:-floodguard}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-change-me-local-only}
+      TZ: UTC
+    ports:
+      # Loopback only: the database is not exposed to the local network.
+      - "127.0.0.1:${FLOODGUARD_POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U \"$${POSTGRES_USER}\" -d \"$${POSTGRES_DB}\""]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+
+volumes:
+  pgdata:
+    name: floodguard-pgdata

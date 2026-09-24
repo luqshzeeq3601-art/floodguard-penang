@@ -1,0 +1,908 @@
+{
+ "description": "Derived evidence summary of 14 sequential samples per sensor of the JPS Pulau Pinang state listings, 105 s apart (scripts/probe_jps_live.py via a bounded driver). observation_time is source display time (no declared timezone); retrieved_at is local clock +08:00; fg_* are FloodGuard-derived with LIVE_RULES 15/15/180. Raw first samples: raw/searchresultrainfall_PNG_20260924T075653+0800.html, raw/aras-air-data_PNG_20260924T075655+0800.html.",
+ "sensors": {
+  "rainfall": {
+   "samples": [
+    {
+     "retrieved_at": "2026-09-24T07:56:53+08:00",
+     "http_status": 200,
+     "rows": 56,
+     "newest_observation_time": "2026-09-24T07:45:00",
+     "fg_live_status": {
+      "DELAYED": 7,
+      "FRESH": 44,
+      "STALE": 5
+     }
+    },
+    {
+     "retrieved_at": "2026-09-24T07:58:38+08:00",
+     "http_status": 200,
+     "rows": 56,
+     "newest_observation_time": "2026-09-24T07:45:00",
+     "fg_live_status": {
+      "DELAYED": 7,
+      "FRESH": 44,
+      "STALE": 5
+     }
+    },
+    {
+     "retrieved_at": "2026-09-24T08:00:23+08:00",
+     "http_status": 200,
+     "rows": 56,
+     "newest_observation_time": "2026-09-24T07:45:00",
+     "fg_live_status": {
+      "DELAYED": 7,
+      "FRESH": 44,
+      "STALE": 5
+     }
+    },
+    {
+     "retrieved_at": "2026-09-24T08:02:08+08:00",
+     "http_status": 200,
+     "rows": 56,
+     "newest_observation_time": "2026-09-24T07:45:00",
+     "fg_live_status": {
+      "DELAYED": 17,
+      "FRESH": 34,
+      "STALE": 5
+     }
+    },
+    {
+     "retrieved_at": "2026-09-24T08:03:53+08:00",
+     "http_status": 200,
+     "rows": 56,
+     "newest_observation_time": "2026-09-24T07:45:00",
+     "fg_live_status": {
+      "DELAYED": 17,
+      "FRESH": 34,
+      "STALE": 5
+     }
+    },
+    {
+     "retrieved_at": "2026-09-24T08:05:38+08:00",
+     "http_status": 200,
+     "rows": 56,
+     "newest_observation_time": "2026-09-24T07:45:00",
+     "fg_live_status": {
+      "DELAYED": 17,
+      "FRESH": 34,
+      "STALE": 5
+     }
+    },
+    {
+     "retrieved_at": "2026-09-24T08:07:23+08:00",
+     "http_status": 200,
+     "rows": 56,
+     "newest_observation_time": "2026-09-24T08:00:00",
+     "fg_live_status": {
+      "DELAYED": 16,
+      "FRESH": 35,
+      "STALE": 5
+     }
+    },
+    {
+     "retrieved_at": "2026-09-24T08:09:08+08:00",
+     "http_status": 200,
+     "rows": 56,
+     "newest_observation_time": "2026-09-24T08:00:00",
+     "fg_live_status": {
+      "DELAYED": 16,
+      "FRESH": 35,
+      "STALE": 5
+     }
+    },
+    {
+     "retrieved_at": "2026-09-24T08:10:53+08:00",
+     "http_status": 200,
+     "rows": 56,
+     "newest_observation_time": "2026-09-24T08:00:00",
+     "fg_live_status": {
+      "DELAYED": 16,
+      "FRESH": 35,
+      "STALE": 5
+     }
+    },
+    {
+     "retrieved_at": "2026-09-24T08:12:38+08:00",
+     "http_status": 200,
+     "rows": 56,
+     "newest_observation_time": "2026-09-24T08:00:00",
+     "fg_live_status": {
+      "DELAYED": 16,
+      "FRESH": 35,
+      "STALE": 5
+     }
+    },
+    {
+     "retrieved_at": "2026-09-24T08:14:23+08:00",
+     "http_status": 200,
+     "rows": 56,
+     "newest_observation_time": "2026-09-24T08:00:00",
+     "fg_live_status": {
+      "DELAYED": 11,
+      "FRESH": 40,
+      "STALE": 5
+     }
+    },
+    {
+     "retrieved_at": "2026-09-24T08:16:08+08:00",
+     "http_status": 200,
+     "rows": 56,
+     "newest_observation_time": "2026-09-24T08:00:00",
+     "fg_live_status": {
+      "DELAYED": 17,
+      "FRESH": 34,
+      "STALE": 5
+     }
+    },
+    {
+     "retrieved_at": "2026-09-24T08:17:53+08:00",
+     "http_status": 200,
+     "rows": 56,
+     "newest_observation_time": "2026-09-24T08:00:00",
+     "fg_live_status": {
+      "DELAYED": 17,
+      "FRESH": 34,
+      "STALE": 5
+     }
+    },
+    {
+     "retrieved_at": "2026-09-24T08:19:38+08:00",
+     "http_status": 200,
+     "rows": 56,
+     "newest_observation_time": "2026-09-24T08:15:00",
+     "fg_live_status": {
+      "DELAYED": 16,
+      "FRESH": 35,
+      "STALE": 5
+     }
+    }
+   ],
+   "stations": {
+    " 5402002_": {
+     "station_name": "Kolam Bersih",
+     "observation_times_seen": [
+      "2026-09-24T07:30:00"
+     ]
+    },
+    "19340": {
+     "station_name": "Kolam Takongan di Bkt. Panchor P. Pinang (RHN)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "25963": {
+     "station_name": "Kolam Air Chrk. To' Kun di  P.Pinang (RHN)",
+     "observation_times_seen": [
+      "2026-09-24T07:30:00",
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00"
+     ]
+    },
+    "25965": {
+     "station_name": "Ldg. Batu Kawan di P.Pinang (RHN)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "25966": {
+     "station_name": "Kg. Seronok (RHN)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "26185": {
+     "station_name": "Lengkok Sg. Emas, Batu Feringghi",
+     "observation_times_seen": [
+      "2026-09-24T07:15:00",
+      "2026-09-24T07:30:00"
+     ]
+    },
+    "26186": {
+     "station_name": "Permatang Tok Jaya",
+     "observation_times_seen": [
+      "2026-09-24T07:30:00"
+     ]
+    },
+    "26189": {
+     "station_name": "Politeknik Balik Pulau",
+     "observation_times_seen": [
+      "2026-09-24T07:15:00",
+      "2026-09-24T07:30:00"
+     ]
+    },
+    "26337": {
+     "station_name": "Klinik Bkt. Bendera di P. Pinang (RHN)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27587": {
+     "station_name": "Lorong Batu Lanchang (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27603": {
+     "station_name": "Kolam Bersih (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27605": {
+     "station_name": "Kolam Takungan Air Itam (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:30:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27608": {
+     "station_name": "Kolam Takungan Sg. Dondang M/S (F2)",
+     "observation_times_seen": [
+      "2026-09-24T03:45:00"
+     ]
+    },
+    "27612": {
+     "station_name": "Kg. Dua Bukit (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27613": {
+     "station_name": "Muara Sg. Pinang S18 (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27615": {
+     "station_name": "Kompleks Perai (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27616": {
+     "station_name": "Pejabat Pertanian Cherok Tok Kun (F2)",
+     "observation_times_seen": [
+      "2026-09-23T18:00:00"
+     ]
+    },
+    "27617": {
+     "station_name": "Pusat Kesihatan Bukit Berapit (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27618": {
+     "station_name": "Permatang Rawa (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27619": {
+     "station_name": "Rumah Pam Kubang Semang (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27620": {
+     "station_name": "JPS SPT (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27624": {
+     "station_name": "Simpang Ampat (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27627": {
+     "station_name": "Sek. Keb. Bakap Indah (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27628": {
+     "station_name": "Kg. Sethu (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27629": {
+     "station_name": "Kuarters Penjara Sg. Duri (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27641": {
+     "station_name": "Lahar Ikan Mati (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27643": {
+     "station_name": "Bakar Kapor (F2)",
+     "observation_times_seen": [
+      "2026-09-23T22:00:00"
+     ]
+    },
+    "27644": {
+     "station_name": "Rumah Pam Pinang Tunggal (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27645": {
+     "station_name": "Rumah Pam Bumbung Lima (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27646": {
+     "station_name": "Permatang Binjai (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27647": {
+     "station_name": "Ara Kuda (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27648": {
+     "station_name": "Permatang Pak Elong (F2)",
+     "observation_times_seen": [
+      "2026-09-23T18:30:00"
+     ]
+    },
+    "27649": {
+     "station_name": "Pajak Song (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27659": {
+     "station_name": "Guar Kepayang (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27660": {
+     "station_name": "Permatang Tok Jaya (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27661": {
+     "station_name": "Bumbung Lima (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27663": {
+     "station_name": "Desa Murni Sg.Dua (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27664": {
+     "station_name": "Kacang Puri (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27666": {
+     "station_name": "Pejabat JPS SPU (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27672": {
+     "station_name": "Tali Air Besar Sg. Pinang (F2)",
+     "observation_times_seen": [
+      "2026-09-23T15:15:00"
+     ]
+    },
+    "27673": {
+     "station_name": "Pintu Air Bagan Air Itam (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27674": {
+     "station_name": "Bayan Lepas (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27675": {
+     "station_name": "Empangan Teluk Bahang (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27692": {
+     "station_name": "Kg. Kebun Baru (F2)",
+     "observation_times_seen": [
+      "2026-09-24T06:15:00"
+     ]
+    },
+    "5205052_": {
+     "station_name": "Bagan Buaya",
+     "observation_times_seen": [
+      "2026-09-24T07:00:00",
+      "2026-09-24T07:10:00",
+      "2026-09-24T07:30:00"
+     ]
+    },
+    "5302001_": {
+     "station_name": "Tali Air Besar Sg. Pinang",
+     "observation_times_seen": [
+      "2026-09-24T07:30:00",
+      "2026-09-24T07:45:00"
+     ]
+    },
+    "5302003_": {
+     "station_name": "Kolam Air Itam",
+     "observation_times_seen": [
+      "2026-09-24T07:30:00",
+      "2026-09-24T07:45:00"
+     ]
+    },
+    "5402003_": {
+     "station_name": "Empangan Teluk Bahang",
+     "observation_times_seen": [
+      "2026-09-24T07:30:00",
+      "2026-09-24T07:45:00"
+     ]
+    },
+    "5403043_": {
+     "station_name": "Jalan P. Ramlee",
+     "observation_times_seen": [
+      "2026-09-24T07:10:00",
+      "2026-09-24T07:40:00"
+     ]
+    },
+    "5404045_": {
+     "station_name": "Pajak Song",
+     "observation_times_seen": [
+      "2026-09-24T07:15:00"
+     ]
+    },
+    "5504032_": {
+     "station_name": "Rumah Pam Bumbung Lima",
+     "observation_times_seen": [
+      "2026-09-24T07:30:00",
+      "2026-09-24T07:45:00"
+     ]
+    },
+    "BUMBUNGLIMA": {
+     "station_name": "Sg.Muda di Bumbung Lima",
+     "observation_times_seen": [
+      "2026-09-24T07:00:00",
+      "2026-09-24T07:10:00",
+      "2026-09-24T07:30:00"
+     ]
+    },
+    "IBUBEKALANSGKULIM": {
+     "station_name": "Ibu Bekalan Sg. Kulim di P. Pinang (RHN)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00"
+     ]
+    },
+    "JELUTUNG": {
+     "station_name": "Jalan Gangsa",
+     "observation_times_seen": [
+      "2026-09-24T07:30:00",
+      "2026-09-24T07:45:00"
+     ]
+    },
+    "LIMBUNGAN": {
+     "station_name": "Rumah Pam Taman Limbungan",
+     "observation_times_seen": [
+      "2026-09-24T07:30:00"
+     ]
+    },
+    "SGDURI": {
+     "station_name": "Sungai Duri Kerian",
+     "observation_times_seen": [
+      "2026-09-24T07:30:00"
+     ]
+    }
+   }
+  },
+  "water_level": {
+   "samples": [
+    {
+     "retrieved_at": "2026-09-24T07:56:55+08:00",
+     "http_status": 200,
+     "rows": 22,
+     "newest_observation_time": "2026-09-24T07:45:00",
+     "fg_live_status": {
+      "DELAYED": 4,
+      "FRESH": 16,
+      "STALE": 2
+     }
+    },
+    {
+     "retrieved_at": "2026-09-24T07:58:40+08:00",
+     "http_status": 200,
+     "rows": 22,
+     "newest_observation_time": "2026-09-24T07:45:00",
+     "fg_live_status": {
+      "DELAYED": 4,
+      "FRESH": 16,
+      "STALE": 2
+     }
+    },
+    {
+     "retrieved_at": "2026-09-24T08:00:25+08:00",
+     "http_status": 200,
+     "rows": 22,
+     "newest_observation_time": "2026-09-24T07:45:00",
+     "fg_live_status": {
+      "DELAYED": 4,
+      "FRESH": 16,
+      "STALE": 2
+     }
+    },
+    {
+     "retrieved_at": "2026-09-24T08:02:10+08:00",
+     "http_status": 200,
+     "rows": 22,
+     "newest_observation_time": "2026-09-24T07:45:00",
+     "fg_live_status": {
+      "DELAYED": 5,
+      "FRESH": 15,
+      "STALE": 2
+     }
+    },
+    {
+     "retrieved_at": "2026-09-24T08:03:55+08:00",
+     "http_status": 200,
+     "rows": 22,
+     "newest_observation_time": "2026-09-24T07:45:00",
+     "fg_live_status": {
+      "DELAYED": 5,
+      "FRESH": 15,
+      "STALE": 2
+     }
+    },
+    {
+     "retrieved_at": "2026-09-24T08:05:40+08:00",
+     "http_status": 200,
+     "rows": 22,
+     "newest_observation_time": "2026-09-24T07:45:00",
+     "fg_live_status": {
+      "DELAYED": 5,
+      "FRESH": 15,
+      "STALE": 2
+     }
+    },
+    {
+     "retrieved_at": "2026-09-24T08:07:25+08:00",
+     "http_status": 200,
+     "rows": 22,
+     "newest_observation_time": "2026-09-24T08:00:00",
+     "fg_live_status": {
+      "DELAYED": 5,
+      "FRESH": 15,
+      "STALE": 2
+     }
+    },
+    {
+     "retrieved_at": "2026-09-24T08:09:10+08:00",
+     "http_status": 200,
+     "rows": 22,
+     "newest_observation_time": "2026-09-24T08:00:00",
+     "fg_live_status": {
+      "DELAYED": 3,
+      "FRESH": 17,
+      "STALE": 2
+     }
+    },
+    {
+     "retrieved_at": "2026-09-24T08:10:55+08:00",
+     "http_status": 200,
+     "rows": 22,
+     "newest_observation_time": "2026-09-24T08:00:00",
+     "fg_live_status": {
+      "DELAYED": 3,
+      "FRESH": 17,
+      "STALE": 2
+     }
+    },
+    {
+     "retrieved_at": "2026-09-24T08:12:40+08:00",
+     "http_status": 200,
+     "rows": 22,
+     "newest_observation_time": "2026-09-24T08:00:00",
+     "fg_live_status": {
+      "DELAYED": 5,
+      "FRESH": 15,
+      "STALE": 2
+     }
+    },
+    {
+     "retrieved_at": "2026-09-24T08:14:25+08:00",
+     "http_status": 200,
+     "rows": 22,
+     "newest_observation_time": "2026-09-24T08:00:00",
+     "fg_live_status": {
+      "DELAYED": 5,
+      "FRESH": 15,
+      "STALE": 2
+     }
+    },
+    {
+     "retrieved_at": "2026-09-24T08:16:10+08:00",
+     "http_status": 200,
+     "rows": 22,
+     "newest_observation_time": "2026-09-24T08:00:00",
+     "fg_live_status": {
+      "DELAYED": 5,
+      "FRESH": 15,
+      "STALE": 2
+     }
+    },
+    {
+     "retrieved_at": "2026-09-24T08:17:55+08:00",
+     "http_status": 200,
+     "rows": 22,
+     "newest_observation_time": "2026-09-24T08:00:00",
+     "fg_live_status": {
+      "DELAYED": 5,
+      "FRESH": 15,
+      "STALE": 2
+     }
+    },
+    {
+     "retrieved_at": "2026-09-24T08:19:40+08:00",
+     "http_status": 200,
+     "rows": 22,
+     "newest_observation_time": "2026-09-24T08:15:00",
+     "fg_live_status": {
+      "DELAYED": 5,
+      "FRESH": 15,
+      "STALE": 2
+     }
+    }
+   ],
+   "stations": {
+    "26189": {
+     "station_name": "Sg. Burong di Politeknik Balik Pulau",
+     "observation_times_seen": [
+      "2026-09-24T07:15:00",
+      "2026-09-24T07:30:00"
+     ]
+    },
+    "26460": {
+     "station_name": "Sg. Kerian di Sri Sanglang (F2)",
+     "observation_times_seen": [
+      "2026-09-23T15:15:00"
+     ]
+    },
+    "27587": {
+     "station_name": "Sg. Air Itam di Lorong Batu Lanchang (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27608": {
+     "station_name": "Kolam Takungan Sg. Dondang M/S (F2)",
+     "observation_times_seen": [
+      "2026-09-24T03:45:00"
+     ]
+    },
+    "27609": {
+     "station_name": "Kolam Takungan Sg. Dondang U/S (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27610": {
+     "station_name": "Kolam Takungan Sg. Dondang D/S (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27612": {
+     "station_name": "Sg. Dua di Kg. Dua Bukit (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27613": {
+     "station_name": "Muara Sg. Pinang S18 (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27614": {
+     "station_name": "Sg. Pinang di Jln. Langkawi (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27620": {
+     "station_name": "Sg. Juru di JPS SPT (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27625": {
+     "station_name": "Sg. Kulim di Kg. Labuh Banting (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27628": {
+     "station_name": "Sg. Jawi di Kg. Sethu (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27630": {
+     "station_name": "Tidal Control Gate Kebun Baru (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27647": {
+     "station_name": "Sg. Kulim di Ara Kuda (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27661": {
+     "station_name": "Sg. Muda di Bumbung Lima (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27663": {
+     "station_name": "Sg. Perai di Desa Murni Sg. Dua (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27665": {
+     "station_name": "Sg. Tembus di Pintu Air Sg. Tembus (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "27667": {
+     "station_name": "Sg. Lahar Endin di Pejabat JPS SPU (F2)",
+     "observation_times_seen": [
+      "2026-09-24T07:45:00",
+      "2026-09-24T08:00:00",
+      "2026-09-24T08:15:00"
+     ]
+    },
+    "5302004_": {
+     "station_name": "Kolam Sg. Dondang",
+     "observation_times_seen": [
+      "2026-09-24T07:25:00",
+      "2026-09-24T07:40:00"
+     ]
+    },
+    "5403043_": {
+     "station_name": "Sg. Pinang di Jalan P. Ramlee",
+     "observation_times_seen": [
+      "2026-09-24T07:10:00",
+      "2026-09-24T07:40:00"
+     ]
+    },
+    "BUMBUNGLIMA": {
+     "station_name": "Sg.Muda di Bumbung Lima",
+     "observation_times_seen": [
+      "2026-09-24T07:00:00",
+      "2026-09-24T07:30:00"
+     ]
+    },
+    "LIMBUNGAN": {
+     "station_name": "Rumah Pam Taman Limbungan",
+     "observation_times_seen": [
+      "2026-09-24T07:30:00"
+     ]
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,293 @@
+id,category,subcategory,data_source,data_as_of,title
+air_pollution,Environment,Pollution,JAS;DOSM,2022-12-31 23:59,Monthly Air Pollution
+almanak_astronomi,Data Dictionaries,Other,MYSA,2026-04-01 16:11:00.000 +08:00,Astronomy Almanac 
+arc_dosm,Metadata,Site Content,DOSM,2026-09-24 08:00,DOSM's Advance Release Calendar
+arrivals,Demography,Migration,Imigresen,2024-10-31 23:59,Monthly Arrivals by Nationality & Sex
+arrivals_soe,Demography,Migration,Imigresen,2024-10-31 23:59,"Monthly Arrivals by State of Entry, Nationality & Sex"
+bec,Data Dictionaries,National,DOSM,2026-03,Broad Economic Categories (BEC)
+births,Demography,Births,JPN,2023-07-31 23:59,Daily Live Births
+births_annual,Demography,Births,JPN;DOSM,2024,Annual Live Births
+births_annual_sex_ethnic,Demography,Births,JPN;DOSM,2024,Annual Live Births by Sex & Ethnicity
+births_annual_sex_ethnic_state,Demography,Births,JPN;DOSM,2024,"Annual Live Births by State, Sex, & Ethnicity"
+births_annual_state,Demography,Births,JPN;DOSM,2024,Annual Live Births by State
+births_district_sex,Demography,Births,JPN;DOSM,2024,Annual Live Births by District & Sex
+blood_donations,Healthcare,Healthcare Programs,PDN;MOH,2026-09-23 23:59,Daily Blood Donations by Blood Group
+blood_donations_state,Healthcare,Healthcare Programs,PDN;MOH,2026-09-23 23:59,Daily Blood Donations by Blood Group & State
+bop_balance,National Accounts,Balance of Payments,DOSM,2026-Q2,Balance of Key BOP Components
+cellular_subscribers,Communications,Telecommunications,MCMC,2021,Cellular Subscribers by Plan Type
+completion_school_state,Education,Education Outcomes,MOE,2022,School Completion Rates by State
+cosmetic_notifications,Healthcare,Regulation,NPRA;MOH,2026-09-20 23:59,Notified Cosmetic Products
+cosmetic_notifications_cancelled,Healthcare,Regulation,NPRA;MOH,2026-09-20 23:59,Cancelled Cosmetic Product Notifications
+cosmetics_manufacturers,Healthcare,Regulation,NPRA;MOH,2026-09-20 23:59,Approved Manufacturers of Cosmetic Products
+covid_cases,Healthcare,Infectious Diseases,MOH,2025-05-31 23:59,Daily COVID-19 Cases by State
+covid_cases_age,Healthcare,Infectious Diseases,MOH,2025-05-31 23:59,Daily COVID-19 Cases by Age Group & State
+covid_cases_vaxstatus,Healthcare,Infectious Diseases,MOH,2025-05-31 23:59,Daily COVID-19 Cases by Vaccination Status & State
+covid_deaths_linelist,Healthcare,Infectious Diseases,MOH,2025-05-31 23:59,Transactional Records: Deaths due to COVID-19
+cpi_3d,Prices,Consumer Prices,DOSM,2026-08,Monthly CPI by Group (3-digit)
+cpi_4d,Prices,Consumer Prices,DOSM,2026-08,Monthly CPI by Class (4-digit)
+cpi_5d,Prices,Consumer Prices,DOSM,2026-08,Monthly CPI by Subclass (5-digit)
+cpi_annual,Prices,Consumer Prices,DOSM,2025,Annual CPI by Division (2-digit)
+cpi_annual_inflation,Prices,Consumer Prices,DOSM,2025,Annual CPI Inflation by Division (2-digit)
+cpi_core,Prices,Consumer Prices,DOSM,2026-08,Monthly Core CPI by Division (2-digit)
+cpi_core_inflation,Prices,Consumer Prices,DOSM,2026-08,Monthly Core CPI Inflation by Division (2-digit)
+cpi_headline,Prices,Consumer Prices,DOSM,2026-08,Monthly CPI by Division (2-digit)
+cpi_headline_inflation,Prices,Consumer Prices,DOSM,2026-08,Monthly CPI Inflation by Division (2-digit)
+cpi_lowincome,Prices,Consumer Prices,DOSM,2026-08,Monthly CPI for Low-Income Households
+cpi_state,Prices,Consumer Prices,DOSM,2026-08,Monthly CPI by State & Division (2-digit)
+cpi_state_inflation,Prices,Consumer Prices,DOSM,2026-08,Monthly CPI Inflation by State & Division (2-digit)
+cpi_strata,Prices,Consumer Prices,DOSM,2026-08,Monthly CPI by Strata & Division (2-digit)
+crime_district,Public Safety,Crime,PDRM;DOSM,2023-12-31 23:59,Crimes by District & Crime Type
+crops_district_area,Economic Sectors,Agriculture,MAFS;DOA;DOSM,2022,Crop Area by District
+crops_district_production,Economic Sectors,Agriculture,MAFS;DOA;DOSM,2022,Crop Production by District
+crops_state,Economic Sectors,Agriculture,MAFS;DOA;DOSM,2022,Crop Area and Production by State
+currency_codes,Data Dictionaries,International,JDN,2025,Currency Codes (ISO 4217)
+currency_in_circulation,Financial Markets,Money Supply,BNM,2026-06,Monthly Currency in Circulation
+currency_in_circulation_annual,Financial Markets,Money Supply,BNM,2025,Annual Currency in Circulation
+datasets,Metadata,Site Content,JDN;KD,2026-09-23 23:59,List of Datasets on data.gov.my
+deaths,Demography,Deaths,JPN;DOSM,2024,Annual Deaths
+deaths_district_sex,Demography,Deaths,JPN;DOSM,2024,Annual Deaths by District & Sex
+deaths_early_childhood,Demography,Deaths,JPN;DOSM,2024,Annual Early Childhood Deaths
+deaths_early_childhood_sex,Demography,Deaths,JPN;DOSM,2024,Annual Early Childhood Deaths by Sex
+deaths_early_childhood_state,Demography,Deaths,JPN;DOSM,2024,Annual Early Childhood Deaths by State
+deaths_early_childhood_state_sex,Demography,Deaths,JPN;DOSM,2024,Annual Early Childhood Deaths by State & Sex
+deaths_maternal,Demography,Deaths,JPN;DOSM,2024,Annual Maternal Deaths
+deaths_maternal_state,Demography,Deaths,JPN;DOSM,2024,Annual Maternal Deaths by State
+deaths_sex_ethnic,Demography,Deaths,JPN;DOSM,2024,Annual Deaths by Sex & Ethnicity
+deaths_sex_ethnic_state,Demography,Deaths,JPN;DOSM,2024,"Annual Deaths by State, Sex, & Ethnicity"
+deaths_state,Demography,Deaths,JPN;DOSM,2024,Annual Deaths by State
+domains,Public Administration,Digital Infrastructure,MYNIC;KD,2025-01,Number of Registered .MY Domains
+domains_dnssec,Public Administration,Digital Infrastructure,MYNIC;KD,2025-01,Number of Registered .MY Domains with DNSSEC
+domains_idn,Public Administration,Digital Infrastructure,MYNIC;KD,2025-01,Number of Registered Internationalised .MY Domains
+domains_ipv6,Public Administration,Digital Infrastructure,MYNIC;KD,2025-01,Number of Registered .MY Domains with IPv6 DNS
+drug_addicts_age,Public Safety,Drug Addiction,AADK;KDN,2023,Drug Addicts by State & Age Group
+drug_addicts_drugtype,Public Safety,Drug Addiction,AADK;KDN,2023-12-31 09:41:00.000 +08:00,Drug Addicts by State & Drug Type
+drug_addicts_education,Public Safety,Drug Addiction,AADK;KDN,2023-12-31 00:00:00.000 +08:00,Drug Addicts by Highest Education Level
+drug_addicts_occupation,Public Safety,Drug Addiction,AADK;KDN,2023,Drug Addicts by State & Occupation
+drug_arrests_age,Public Safety,Drug Addiction,PDRM;KDN,2023,Drug Arrests by Sex & Age
+drug_arrests_ethnicity,Public Safety,Drug Addiction,PDRM;KDN,2023,Drug Arrests by Sex & Ethnicity
+economic_indicators,Statistical Indicators,Economic Indicators,DOSM,2026-05,Malaysian Economic Indicators
+electricity_access,Environment,Energy,TNB;SESB;SWK-ENERGY;ST,2022,Households with Access to Electricity
+electricity_consumption,Environment,Energy,TNB;SESB;SWK-ENERGY;ST;DOSM,2024-09-30 23:59,Monthly Electricity Consumption
+electricity_supply,Environment,Energy,TNB;SESB;SWK-ENERGY;ST;DOSM,2024-09-30 23:59,Electricity Supply
+employment_sector,Labour Markets,Labour Force Survey,DOSM,2022,Employment by MSIC Sector and Sex
+enrolment_school_district,Education,Education Outcomes,MOE,2025,Enrolment in Government Schools by District
+epf_dividend,Public Welfare,Retirement,EPF,2025,Annual EPF Dividend
+exchangerates,Financial Markets,Foreign Exchange,BNM,2026-08-31 12:00,Monthly Exchange Rates
+exchangerates_daily_0900,Financial Markets,Foreign Exchange,BNM,2026-09-24 09:00,Daily Exchange Rates (0900)
+exchangerates_daily_1130,Financial Markets,Foreign Exchange,BNM,2026-09-23 11:30,Daily Exchange Rates (1130)
+exchangerates_daily_1200,Financial Markets,Foreign Exchange,BNM,2026-09-23 12:00,Daily Exchange Rates (1200)
+exchangerates_daily_1700,Financial Markets,Foreign Exchange,BNM,2026-09-23 17:00,Daily Exchange Rates (1700)
+fdi_flows,National Accounts,Balance of Payments,DOSM,2025-Q3,Foreign Direct Investment (FDI) Flows
+federal_budget_moe,Public Administration,Public Finance,MOF,2022,Annual Budget Allocation for the Ministry of Education
+federal_budget_moh,Public Administration,Public Finance,MOF,2022,Annual Budget Allocation for the Ministry of Health
+federal_finance_qtr,Public Administration,Public Finance,JANM,2024-Q1,Quarterly Federal Government Finance
+federal_finance_qtr_de,Public Administration,Public Finance,JANM,2024-Q1,Quarterly Federal Government Development Expenditure by Function
+federal_finance_qtr_oe,Public Administration,Public Finance,JANM,2024-Q1,Quarterly Federal Government Operating Expenditure by Object
+federal_finance_qtr_revenue,Public Administration,Public Finance,JANM,2024-Q1,Quarterly Federal Government Revenue
+federal_finance_year,Public Administration,Public Finance,JANM,2023,Annual Federal Government Finance
+federal_finance_year_de,Public Administration,Public Finance,JANM,2023,Annual Federal Government Development Expenditure by Function
+federal_finance_year_oe,Public Administration,Public Finance,JANM,2023,Annual Federal Government Operating Expenditure by Object
+federal_finance_year_revenue,Public Administration,Public Finance,JANM,2023,Annual Federal Government Revenue
+fertility,Demography,Fertility,DOSM,2024,TFR and ASFR
+fertility_state,Demography,Fertility,DOSM,2024,TFR and ASFR by State
+fish_landings,Economic Sectors,Agriculture,Perikanan,2023-12,Monthly Landings of Marine Fish by State
+forest_reserve,Environment,Land Use,Perhutanan;DOSM,2021,Area of Permanent Forest Reserves
+forest_reserve_state,Environment,Land Use,Perhutanan;DOSM,2021,Area of Permanent Forest Reserves by State
+fuelprice,Prices,Commodity Prices,MOF,2026-09-24 00:01,Price of Petroleum & Diesel
+gdp_annual_nominal_demand,National Accounts,Gross Domestic Product,DOSM,2025,Annual Nominal GDP by Expenditure Type
+gdp_annual_nominal_demand_granular,National Accounts,Gross Domestic Product,DOSM,2025,Annual Nominal GDP by Expenditure Subtype
+gdp_annual_nominal_income,National Accounts,Gross Domestic Product,DOSM,2024,Annual Nominal GDP by Income Component
+gdp_annual_nominal_supply,National Accounts,Gross Domestic Product,DOSM,2025,Annual Nominal GDP by Economic Sector
+gdp_annual_nominal_supply_granular,National Accounts,Gross Domestic Product,DOSM,2025,Annual Nominal GDP by Economic Subsector
+gdp_annual_real_demand,National Accounts,Gross Domestic Product,DOSM,2025,Annual Real GDP by Expenditure Type
+gdp_annual_real_demand_granular,National Accounts,Gross Domestic Product,DOSM,2025,Annual Real GDP by Expenditure Subtype
+gdp_annual_real_supply,National Accounts,Gross Domestic Product,DOSM,2025,Annual Real GDP by Economic Sector
+gdp_annual_real_supply_granular,National Accounts,Gross Domestic Product,DOSM,2025,Annual Real GDP by Economic Subsector
+gdp_district_real_supply,National Accounts,Gross Domestic Product,DOSM,2020,Annual Real GDP by District & Economic Sector
+gdp_gni_annual_nominal,National Accounts,Gross Domestic Product,DOSM,2025,Annual Nominal GDP & GNI: 1947 to Present
+gdp_gni_annual_real,National Accounts,Gross Domestic Product,DOSM,2025,Annual Real GDP & GNI: 1970 to Present
+gdp_lookup,National Accounts,Gross Domestic Product,DOSM,2024-Q1,Lookup Table: GDP
+gdp_qtr_nominal,National Accounts,Gross Domestic Product,DOSM,2026-Q2,Quarterly Nominal GDP
+gdp_qtr_nominal_demand,National Accounts,Gross Domestic Product,DOSM,2026-Q2,Quarterly Nominal GDP by Expenditure Type
+gdp_qtr_nominal_demand_granular,National Accounts,Gross Domestic Product,DOSM,2026-Q2,Quarterly Nominal GDP by Expenditure Subtype
+gdp_qtr_nominal_supply,National Accounts,Gross Domestic Product,DOSM,2026-Q2,Quarterly Nominal GDP by Economic Sector
+gdp_qtr_nominal_supply_granular,National Accounts,Gross Domestic Product,DOSM,2026-Q2,Quarterly Nominal GDP by Economic Subsector
+gdp_qtr_real,National Accounts,Gross Domestic Product,DOSM,2026-Q2,Quarterly Real GDP
+gdp_qtr_real_demand,National Accounts,Gross Domestic Product,DOSM,2026-Q2,Quarterly Real GDP by Expenditure Type
+gdp_qtr_real_demand_granular,National Accounts,Gross Domestic Product,DOSM,2026-Q2,Quarterly Real GDP by Expenditure Subtype
+gdp_qtr_real_sa,National Accounts,Gross Domestic Product,DOSM,2026-Q2,Quarterly Real GDP (Seasonally Adjusted)
+gdp_qtr_real_sa_demand,National Accounts,Gross Domestic Product,DOSM,2026-Q2,Quarterly Real GDP (Seasonally Adjusted) by Expenditure Type
+gdp_qtr_real_sa_supply,National Accounts,Gross Domestic Product,DOSM,2026-Q2,Quarterly Real GDP (Seasonally Adjusted) by Economic Sector
+gdp_qtr_real_supply,National Accounts,Gross Domestic Product,DOSM,2026-Q2,Quarterly Real GDP by Economic Sector
+gdp_qtr_real_supply_granular,National Accounts,Gross Domestic Product,DOSM,2026-Q2,Quarterly Real GDP by Economic Subsector
+gdp_state_real_supply,National Accounts,Gross Domestic Product,DOSM,2025,Annual Real GDP by State & Economic Sector
+ghg_emissions,Environment,Pollution,NRES;DOSM,2021,Greenhouse Gas Emissions
+government_apps,Public Administration,Digital Services,JDN;KD,2026-04-21 23:59,Transactional Data: Official Government Mobile Applications
+government_apps_active,Public Administration,Digital Services,JDN;KD,2026-04-21 23:59,Number of Active Government Mobile Applications
+government_apps_downloads,Public Administration,Digital Services,JDN;KD,2026-04-21 23:59,Downloads of Government Mobile Applications
+government_apps_reviews,Public Administration,Digital Services,JDN;KD,2026-04-21 23:59,Transactional Data: User Reviews of Government Mobile Applications
+healthcare_staff,Healthcare,Healthcare Infrastructure,MOH,2022-12-31 23:59,Healthcare Staff by State and Staff Type
+hh_access_amenities,Households,Basic Amenities,DOSM,2024,Access to Basic Amenities by State & District
+hh_expenditure_dun,Households,Expenditure,DOSM,2024,Household Expenditure by DUN
+hh_expenditure_parlimen,Households,Expenditure,DOSM,2024,Household Expenditure by Parliament
+hh_income,Households,Income,DOSM,2024,Household Income
+hh_income_district,Households,Income,DOSM,2024,Household Income by Administrative District
+hh_income_dun,Households,Income,DOSM,2024,Household Income by DUN
+hh_income_parlimen,Households,Income,DOSM,2024,Household Income by Parliament
+hh_income_state,Households,Income,DOSM,2024,Household Income by State
+hh_inequality,Households,Inequality,DOSM,2024,Income Inequality
+hh_inequality_district,Households,Inequality,DOSM,2024,Income Inequality by District
+hh_inequality_dun,Households,Inequality,DOSM,2024,Income Inequality by DUN
+hh_inequality_parlimen,Households,Inequality,DOSM,2024,Income Inequality by Parliament
+hh_inequality_state,Households,Inequality,DOSM,2024,Income Inequality by State
+hh_poverty,Households,Poverty,DOSM,2024,Poverty
+hh_poverty_district,Households,Poverty,DOSM,2024,Poverty by Administrative District
+hh_poverty_dun,Households,Poverty,DOSM,2024,Poverty by DUN
+hh_poverty_parlimen,Households,Poverty,DOSM,2024,Poverty by Parliament
+hh_poverty_state,Households,Poverty,DOSM,2024,Poverty by State
+hh_profile,Households,Profile,DOSM,2024,Number of Households and Living Quarters
+hh_profile_state,Households,Profile,DOSM,2024,Number of Households and Living Quarters by State
+hies_district,Households,Expenditure,DOSM,2024,Household Income and Expenditure: Administrative Districts
+hies_malaysia_percentile,Households,Income,DOSM,2024,Household Income by Percentile
+hies_state,Households,Expenditure,DOSM,2024,Household Income and Expenditure: States
+hies_state_percentile,Households,Income,DOSM,2024,Household Income by State & Percentile
+hospital_beds,Healthcare,Healthcare Infrastructure,MOH,2022-12-31 23:59,Hospital Beds by State and Hospital Type
+infant_immunisation,Healthcare,Healthcare Programs,MOH,2023,Infant Immunisation Coverage
+interestrates,Financial Markets,Banking System,BNM,2026-06,Monthly Interest Rates
+interestrates_annual,Financial Markets,Banking System,BNM,2025,Annual Interest Rates
+iowrt,Economic Sectors,Services,DOSM,2026-07,Headline Wholesale & Retail Trade
+iowrt_2d,Economic Sectors,Services,DOSM,2026-07,Wholesale & Retail Trade by Division (2 digit)
+iowrt_3d,Economic Sectors,Services,DOSM,2026-07,Wholesale & Retail Trade by Group (3 digit)
+ipi,Economic Sectors,Manufacturing,DOSM,2026-07,Industrial Production Index (IPI)
+ipi_1d,Economic Sectors,Manufacturing,DOSM,2026-07,IPI by Section (1 digit)
+ipi_2d,Economic Sectors,Manufacturing,DOSM,2026-07,IPI by Division (2 digit)
+ipi_3d,Economic Sectors,Manufacturing,DOSM,2026-07,IPI by Group (3 digit)
+ipi_5d,Economic Sectors,Manufacturing,DOSM,2026-07,IPI by Item (5 digit)
+ipi_domestic,Economic Sectors,Manufacturing,DOSM,2026-07,IPI for Domestic-Oriented Divisions (2 digit)
+ipi_export,Economic Sectors,Manufacturing,DOSM,2026-07,IPI for Export-Oriented Divisions (2 digit)
+lecturers_uni,Education,Education Infrastructure,MOHE,2023,Lecturers in Public Universities by Citizenship & Sex
+legal_advisory_branch,Public Safety,Justice,JBG,2024-12-31 23:59,Legal Advisory Services by Branch
+legal_advisory_case_type,Public Safety,Justice,JBG,2024-12-31 23:59,Legal Advisory Services by Branch & Case Type
+legal_advisory_category,Public Safety,Justice,JBG,2024-12-31 23:59,Legal Advisory Services by Branch & Category
+legal_advisory_subcategory,Public Safety,Justice,JBG,2024-12-31 23:59,Legal Advisory Services by Branch & Subcategory
+lfs_district,Labour Markets,Labour Force Survey,DOSM,2024,Annual Principal Labour Force Statistics by District
+lfs_dun,Labour Markets,Labour Force Survey,DOSM,2023,Annual Principal Labour Force Statistics by DUN
+lfs_month,Labour Markets,Labour Force Survey,DOSM,2026-07,Monthly Principal Labour Force Statistics
+lfs_month_duration,Labour Markets,Labour Force Survey,DOSM,2026-06,Monthly Unemployment by Duration
+lfs_month_sa,Labour Markets,Labour Force Survey,DOSM,2026-07,"Monthly Principal Labour Force Statistics, Seasonally Adjusted"
+lfs_month_status,Labour Markets,Labour Force Survey,DOSM,2026-07,Monthly Employment by Status in Employment
+lfs_month_youth,Labour Markets,Labour Force Survey,DOSM,2026-06,Monthly Youth Unemployment
+lfs_parlimen,Labour Markets,Labour Force Survey,DOSM,2023,Annual Principal Labour Force Statistics by Parliament
+lfs_qtr,Labour Markets,Labour Force Survey,DOSM,2025-Q3,Quarterly Principal Labour Force Statistics
+lfs_qtr_sru_age,Labour Markets,Labour Force Survey,DOSM,2025-Q3,Quarterly Skills-Related Underemployment by Age
+lfs_qtr_sru_sex,Labour Markets,Labour Force Survey,DOSM,2025-Q3,Quarterly Skills-Related Underemployment by Sex
+lfs_qtr_state,Labour Markets,Labour Force Survey,DOSM,2025-Q3,Quarterly Principal Labour Force Statistics by State
+lfs_qtr_tru_age,Labour Markets,Labour Force Survey,DOSM,2025-Q3,Quarterly Time-Related Underemployment by Age
+lfs_qtr_tru_sex,Labour Markets,Labour Force Survey,DOSM,2025-Q3,Quarterly Time-Related Underemployment by Sex
+lfs_state_sex,Labour Markets,Labour Force Survey,DOSM,2023,Annual Principal Labour Force Statistics by State & Sex
+lfs_year,Labour Markets,Labour Force Survey,DOSM,2023,Annual Principal Labour Force Statistics
+lfs_year_sex,Labour Markets,Labour Force Survey,DOSM,2023,Annual Principal Labour Force Statistics by Sex
+local_authority_sex,Public Administration,Public Service,KPKT,2022,Female Representation in Local Authorities
+lookup_federal_finance,Data Dictionaries,Internal,JANM,2024-01,Lookup Table: Federal Finance
+lookup_item,Prices,Consumer Prices,KPDN;DOSM,2026-09-09 23:59,PriceCatcher: Item Lookup
+lookup_money_banking,Data Dictionaries,Internal,BNM,2024-01,Lookup Table: Money & Banking
+lookup_premise,Prices,Consumer Prices,KPDN;DOSM,2026-09-07 23:59,PriceCatcher: Premise Lookup
+marriages,Demography,Marriage,DOSM,2022-12-31 23:59,Annual Marriages
+marriages_age,Demography,Marriage,DOSM,2022-12-31 23:59,Annual Marriage by Age Group
+marriages_state,Demography,Marriage,DOSM,2022-12-31 23:59,Annual Marriages by State
+marriages_state_age,Demography,Marriage,DOSM,2022-12-31 23:59,Annual Marriage by State & Age Group
+mcoicop,Data Dictionaries,National,DOSM,2018,MCOICOP
+metrics_content,Metadata,Site Metrics,JDN;KD,2026-09-23 23:59,Number of Datasets on data.gov.my
+metrics_dataset_cumul,Metadata,Site Metrics,JDN;KD,2026-09-23 23:59,Cumulative Views and Downloads by Dataset
+mineral_extraction,Economic Sectors,Mining & Quarrying,JMG;DOSM,2021,Extraction of Minerals by State and Commodity
+mnha,Healthcare,Healthcare Accounts,MOH,2022,MNHA: Total (TEH) and Current (CHE) Expenditure on Health
+mnha_moh,Healthcare,Healthcare Accounts,MOH,2022,MNHA: MOH Expenditure on Health
+monetary_aggregates,Financial Markets,Money Supply,BNM,2026-06,"Monetary Aggregates: M1, M2, M3"
+msic,Data Dictionaries,National,DOSM,2008,MSIC
+nutrition_children_sex,Healthcare,General Health,MOH,2019,Nutritional Status of Children Under 5 by Sex
+nutrition_children_strata,Healthcare,General Health,MOH,2019,Nutritional Status of Children Under 5 by Strata
+organ_pledge_demog,Healthcare,Healthcare Programs,NTRC;MOH,2026-09-23 23:59,"Organ Donation Pledges by Sex, Ethnicity and Age Group"
+organ_pledge_demog_state,Healthcare,Healthcare Programs,NTRC;MOH,2026-09-23 23:59,"Organ Donation Pledges by State, Sex, Ethnicity and Age Group"
+organ_pledges,Healthcare,Healthcare Programs,NTRC;MOH,2026-09-23 23:59,Daily Organ Donation Pledges
+organ_pledges_state,Healthcare,Healthcare Programs,NTRC;MOH,2026-09-23 23:59,Daily Organ Donation Pledges by State
+parliament_sex,Public Administration,Public Service,Parlimen,2022,Female Representation in Parliament
+passports,Demography,Migration,Imigresen,2024-10-31 23:59,Monthly Passport Issuances by State and Branch
+payment_channels,Financial Markets,Payments,BNM,2026-06,Monthly Usage of Payment Channels
+payment_instruments,Financial Markets,Payments,BNM,2026-06,Monthly Usage of Payment Instruments
+payment_systems,Financial Markets,Payments,BNM,2026-06,Monthly Usage of Payment Systems
+pekab40_screenings,Healthcare,Healthcare Programs,PHCorp;MOH,2026-09-23 23:59,Daily PeKaB40 Health Screenings
+pekab40_screenings_state,Healthcare,Healthcare Programs,PHCorp;MOH,2026-09-23 23:59,Daily PeKaB40 Health Screenings by State
+pharmaceutical_importers,Healthcare,Regulation,NPRA;MOH,2026-09-20 23:59,Approved Importers of Pharmaceutical Products
+pharmaceutical_manufacturers,Healthcare,Regulation,NPRA;MOH,2026-09-20 23:59,Approved Manufacturers of Pharmaceutical Products
+pharmaceutical_products,Healthcare,Regulation,NPRA;MOH,2026-09-20 23:59,Approved Pharmaceutical Products
+pharmaceutical_products_cancelled,Healthcare,Regulation,NPRA;MOH,2026-09-20 23:59,Cancelled Pharmaceutical Products
+pharmaceutical_wholesalers,Healthcare,Regulation,NPRA;MOH,2026-09-20 23:59,Approved Wholesalers of Pharmaceutical Products
+population_district,Demography,Population,DOSM,2025,Population Table: Administrative Districts
+population_dun,Demography,Population,DOSM,2024,Population Table: State Legislative Assemblies (DUNs)
+population_malaysia,Demography,Population,DOSM,2026,Population Table: Malaysia
+population_parlimen,Demography,Population,DOSM,2024,Population Table: Parliamentary Constituencies
+population_state,Demography,Population,DOSM,2026,Population Table: States
+poskod,Data Dictionaries,National,MCMC,2026-06,Postcode Dataset
+ppi,Prices,Producer Prices,DOSM,2026-07,Monthly Producer Price Index (PPI)
+ppi_1d,Prices,Producer Prices,DOSM,2026-07,Monthly PPI by Section (1 digit)
+ppi_2d,Prices,Producer Prices,DOSM,2026-07,Monthly PPI by Division (2 digit)
+ppi_3d,Prices,Producer Prices,DOSM,2026-07,Monthly PPI by Group (3 digit)
+ppi_sitc,Prices,Producer Prices,DOSM,2026-07,Monthly PPI by SITC Section (1 digit)
+ppi_sop,Prices,Producer Prices,DOSM,2026-07,Monthly PPI by Stage of Processing
+pricecatcher,Prices,Consumer Prices,KPDN;DOSM,2026-09-23 23:59,PriceCatcher: Transactional Records
+prisoners_prison,Public Safety,Justice,Penjara,2022-12-31 23:59,Prisoners by Prison Centre and Sex
+prisoners_state,Public Safety,Justice,Penjara,2022-12-31 23:59,Prisoners by State and Sex
+productivity_annual,Labour Markets,Labour Productivity,DOSM,2025,Annual Productivity by Economic Sector
+productivity_annual_priority,Labour Markets,Labour Productivity,DOSM,2025,Annual Productivity for Priority Subsectors
+productivity_lookup,Labour Markets,Labour Productivity,DOSM,2025-Q4,Lookup Table: Labour Productivity
+productivity_qtr,Labour Markets,Labour Productivity,DOSM,2025-Q4,Quarterly Productivity by Economic Sector
+registration_transactions_all,Transportation,Vehicle Registrations,JPJ;MOT,2026-08-31 23:59,Vehicle Registration Transactions
+registration_transactions_car,Transportation,Vehicle Registrations,JPJ;MOT,2026-08-31 23:59,Car Registration Transactions
+registration_transactions_motorcycle,Transportation,Vehicle Registrations,JPJ;MOT,2026-08-31 23:59,Motorcycle Registration Transactions
+registrations_type_fuel,Transportation,Vehicle Registrations,JPJ;MOT,2026-08-31 23:59,Monthly Vehicle Registrations by Vehicle and Fuel Type
+ridership_headline,Transportation,Ridership,Prasarana;MOT,2026-08-31 23:59,Daily Public Transport Ridership
+ridership_ktmb_daily,Transportation,Ridership,KTMB;MOT,2026-09-23 23:59,Daily KTMB Ridership
+ridership_ktmb_monthly,Transportation,Ridership,KTMB;MOT,2026-08-31 23:59,Monthly KTMB Ridership
+ridership_od_brt_daily,Transportation,Ridership,Prasarana;MOT,2026-09-22 23:59,Daily Origin-Destination Ridership: BRT Sunway Line
+ridership_od_ets,Transportation,Ridership,KTMB;MOT,2026-09-23 23:59,Hourly Origin-Destination Ridership: ETS
+ridership_od_intercity,Transportation,Ridership,KTMB;MOT,2026-09-23 23:59,Hourly Origin-Destination Ridership: Intercity
+ridership_od_komuter,Transportation,Ridership,KTMB;MOT,2026-09-23 23:59,Hourly Origin-Destination Ridership: Komuter
+ridership_od_komuter_utara,Transportation,Ridership,KTMB;MOT,2026-09-23 23:59,Hourly Origin-Destination Ridership: Komuter Utara
+ridership_od_rapidrail_daily,Transportation,Ridership,Prasarana;MOT,2026-09-22 23:59,Daily Origin-Destination Ridership: Rapid Rail (KV)
+ridership_od_shuttle_tebrau,Transportation,Ridership,KTMB;MOT,2026-09-23 23:59,Hourly Origin-Destination Ridership: Shuttle Tebrau
+sanitation_access,Healthcare,Healthcare Infrastructure,MOH,2022,Access to Sanitary Latrines by State
+schools_district,Education,Education Infrastructure,MOE,2025,Public Education Institutions by District
+sdg_03-3-1,Statistical Indicators,SDG Indicators,MOH,2022,"SDG 03-3-1: HIV Incidence per 1,000 Uninfected Population"
+sdg_04-6-1,Statistical Indicators,SDG Indicators,DOSM,2022,SDG 04-6-1: Proficiency in Functional Literacy and Numeracy
+sdg_10-c-1,Statistical Indicators,SDG Indicators,DOSM;BNM,2022,SDG 10-C-1: Remittance Costs as a % of the Amount Remitted
+sdg_16-1-1,Statistical Indicators,SDG Indicators,PDRM,2022,SDG 16-1-1: Victims of Intentional Homicide
+sdg_16-2-2,Statistical Indicators,SDG Indicators,KDN,2022,SDG 16-2-2: Victims of Human Trafficking
+sitc,Data Dictionaries,National,DOSM,2006,SITC
+sitc_sop,Data Dictionaries,National,DOSM,2006,SITC: Stage of Processing
+sppi,Prices,Producer Prices,DOSM,2026-Q2,Headline Services Producer Price Index (SPPI)
+sppi_1d,Prices,Producer Prices,DOSM,2026-Q2,SPPI by Section (1 digit)
+sppi_2d,Prices,Producer Prices,DOSM,2026-Q2,SPPI by Division (2 digits)
+sppi_3d,Prices,Producer Prices,DOSM,2026-Q2,SPPI by Group (3 digits)
+state_finance_expenditure,Public Administration,Public Finance,AUDIT,2022,State Government Expenditure
+state_finance_revenue,Public Administration,Public Finance,AUDIT,2022,State Government Revenue
+std_state,Healthcare,Infectious Diseases,MOH,2022,Sexually Transmitted Diseases (STDs) by State
+stillbirths,Demography,Births,MOH;DOSM,2024,Annual Stillbirths
+stillbirths_state,Demography,Births,MOH;DOSM,2024,Annual Stillbirths by State
+teachers_district,Education,Education Infrastructure,MOE,2025,Teachers in Government Schools by District
+timber_production,Economic Sectors,Agriculture,Perhutanan;DOSM,2021,Production of Major Timber Products by State
+trade_enduse_bec,Economic Sectors,External Trade,DOSM,2026-07,Monthly Retained Imports by End Use and BEC
+trade_headline,Economic Sectors,External Trade,DOSM,2026-07,Headline Monthly Trade in Goods
+trade_sitc_1d,Economic Sectors,External Trade,DOSM,2026-07,Monthly Trade by SITC Section (1 digit)
+trnsc_daily_directdebit,Financial Markets,Payments,PayNet;BNM,2026-09-23 23:59,Daily DirectDebit Transactions
+trnsc_daily_fpx,Financial Markets,Payments,PayNet;BNM,2026-09-23 23:59,Daily FPX Transactions
+trnsc_daily_jompay,Financial Markets,Payments,PayNet;BNM,2026-09-23 23:59,Daily JomPAY Transactions
+trnsc_daily_san,Financial Markets,Payments,PayNet;BNM,2026-09-23 23:59,Daily Shared ATM Network (SAN) Transactions
+usage_metrics,Metadata,Site Metrics,JDN;KD,2026-09-23 23:59,Daily Usage Metrics for data.gov.my
+usage_metrics_openapi,Metadata,Site Metrics,JDN;KD,2026-09-23 23:59,Daily OpenAPI Hits by Endpoint
+usage_metrics_openapi_cumul,Metadata,Site Metrics,JDN;KD,2026-09-23 23:59,Cumulative OpenAPI Hits by Endpoint
+vaxreg_covid,Healthcare,Infectious Diseases,MOH,2022-02-22 23:59,Daily COVID-19 Vaccine Registrations by State
+vaxreg_covid_demog,Healthcare,Infectious Diseases,MOH,2022-02-22 23:59,"Daily COVID-19 Vaccine Registrations by State, Sex & Age"
+water_access,Environment,Water,SPAN;NRES,2022,Access to Treated Water by State & Strata
+water_consumption,Environment,Water,SPAN;NRES;DOSM,2022-12-31 23:59,Water Consumption by State and Sector
+water_pollution_basin,Environment,Pollution,JAS,2021,River Basin Pollution Monitoring
+water_production,Environment,Water,SPAN;NRES;DOSM,2022-12-31 23:59,Water Production by State

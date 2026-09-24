@@ -1,0 +1,148 @@
+<!-- FloodGuard test fixture. REAL captured response (trimmed): GET https://publicinfobanjir.water.gov.my/index.php/aras-air/data-paras-air/aras-air-data/?state=PNG&district=ALL&station=ALL (served after redirect from /index.php/...) retrieved 2026-09-24T01:53+08:00 (HTTP Date: Wed, 23 Sep 2026 17:53:11 GMT). Kept rows 1,2,8,17,19,21,22 verbatim; removed other rows, the leading run of empty </tr> tags and the trailing modal script. -->
+
+
+
+<style>
+/* ekon
+.responstable {
+	font-size: 11.4px;
+	margin: 1em 0;
+	width: 100%;
+	background: #FFF;
+	color: #024457;
+	border-radius: 10px;
+	border: 1px solid #167F92;
+	overflow: hidden;
+  margin: 0px;
+  } */
+  #normaltable1 tr {
+	border-top: 1px solid #167F92;
+	border-bottom: 1px solid #167F92;
+  }
+  #normaltable1 tr:nth-child(odd) {
+	background-color: #EAF3F3;
+  }
+  #normaltable1 th {
+	border: 1px solid;
+	color: #FFF;
+  font-size: 14.2px;
+  text-align: center;
+  padding: 5px;
+  }
+#normaltable1 td{
+  text-align: center;
+  font-size: 14px;
+  border: 1px solid #a6a6a6;
+}
+  #normaltable2 tr {
+	border-top: 1px solid #167F92;
+	border-bottom: 1px solid #167F92;
+  }
+  #normaltable2 tr:nth-child(odd) {
+	background-color: #EAF3F3;
+  }
+  #normaltable2 th {
+	border: 1px solid;
+	color: #FFF;
+  font-size: 14.2px;
+  text-align: center;
+  padding: 5px;
+  }
+  #normaltable2 td{
+  text-align: center;
+  font-size: 14px;
+  border: 1px solid #a6a6a6;
+}
+#normal{
+  background-color: #008000;
+  color: black;
+  font-weight: bold;
+}
+#alert{
+  background-color: #ffff00;
+  color: black;
+  font-weight: bold;
+}
+#warning{
+  background-color: #ffa500;
+  color: black;
+  font-weight: bold;
+}
+#danger{
+  background-color: #ff0000;
+  color: white;
+  font-weight: bold;
+}
+#district1{
+	cursor:pointer;
+  color:#4d79ff;
+}
+.box{
+  width: 450px;
+   height: 80px;
+   border: ridge;
+   float: right;
+  padding: 10px;
+  box-shadow: 4px 4px #888888;
+  margin-bottom: 10px;
+}
+.horiz > li {
+  display: inline;
+  padding-right: 20px;
+}
+.legend {
+  vertical-align:top;
+  padding-left:15px;
+  list-style: none;
+  float: right;
+}
+#wl{
+  color: black;
+  text-decoration: underline;
+}
+#wldanger{
+  color: white;
+  text-decoration: underline;
+}
+
+</style>
+
+
+      <div class='custyle' style='overflow: auto;'>
+      <table class='normaltable-fluid' border='1' id='normaltable1'>
+      <thead>
+  		<tr>
+    <tr>
+    <th rowspan = '2' style='background-color: #2d7fc7;'>Bilangan</th><th rowspan = '2' style='background-color: #2d7fc7;'>ID Stesen</th><th rowspan = '2' style='background-color: #2d7fc7; width: 15%;'>Nama Stesen</th>
+    <th rowspan = '2' style='background-color: #2d7fc7;'>Daerah</th>
+    <th rowspan = '2' style='background-color: #2d7fc7;'>Lembangan</th>
+    <th rowspan = '2' style='background-color: #2d7fc7;'>Sub Lembangan</th>
+    <th rowspan = '2' style='background-color: #2d7fc7;'>Kemaskini Terakhir</th>
+    <th rowspan = '2' style='background-color: #2d7fc7;'>Aras Air (m)<br>(Graf)</th>
+    <th colspan = '4' class='text-center' style='background-color: #2d7fc7;'>Tahap Nilai Ambang</th>
+    </tr>
+    <tr>
+    <th style='background-color: #2d7fc7;'>Normal	</th>
+    <th id='alert' style='color:black;'>Waspada</th>
+    <th id='warning' style='color:black;'>Amaran</th>
+    <th id='danger' style='color:black;'>Bahaya</th>
+		</tr>
+    </thead>
+    <tbody>
+<tr  class='item'><td data-th='No'>1</td><td data-th='Station ID'>1910131WL</td><td data-th='Station Name'>Sg. Air Itam di Lorong Batu Lanchang (F2)</td><td data-th='District'>Timur Laut Pulau Pinang</td><td data-th='Main Basin (mm)'>Sungai Pinang</td><td data-th='Sub River Basin (mm)'>Sg. Air Itam</td><td data-th='Last Update'>24/09/2026 01:45</td><td data-th='wl'>
+          <a href='/index.php/wl-graph/?stationid=27587' id='wl' target='_blank'>
+          5.00</a></td><td data-th='Normal'>4.00</td><td data-th='Alert'>5.20</td><td data-th='Warning'>5.50</td><td data-th='Danger'>6.00</td></tr><tr  class='item'><td data-th='No'>2</td><td data-th='Station ID'>1910111WL</td><td data-th='Station Name'>Kolam Takungan Sg. Dondang M/S (F2)</td><td data-th='District'>Timur Laut Pulau Pinang</td><td data-th='Main Basin (mm)'>Sungai Pinang</td><td data-th='Sub River Basin (mm)'>Sg. Dondang</td><td data-th='Last Update'>24/09/2026 01:45</td><td data-th='wl'>
+          <a href='/index.php/wl-graph/?stationid=27608' id='wl' target='_blank'>
+          15.43</a></td><td data-th='Normal'>0.00</td><td data-th='Alert'>21.00</td><td data-th='Warning'>21.20</td><td data-th='Danger'>21.50</td></tr><tr  class='item'><td data-th='No'>8</td><td data-th='Station ID'>0070071WL</td><td data-th='Station Name'>Sg. Juru di JPS SPT (F2)</td><td data-th='District'>Seberang Perai Tengah</td><td data-th='Main Basin (mm)'>Sungai Juru</td><td data-th='Sub River Basin (mm)'>Sg. Juru</td><td data-th='Last Update'>24/09/2026 01:45</td><td data-th='wl'>
+          <a href='/index.php/wl-graph/?stationid=27620' id='wl' target='_blank'>
+          0.87</a></td><td data-th='Normal'>0.30</td><td data-th='Alert'>1.90</td><td data-th='Warning'>2.10</td><td data-th='Danger'>2.50</td></tr><tr  class='item'><td data-th='No'>17</td><td data-th='Station ID'>5504401</td><td data-th='Station Name'>Sg.Muda di Bumbung Lima</td><td data-th='District'>Seberang Perai Utara</td><td data-th='Main Basin (mm)'>Sungai Muda (P. Pinang)</td><td data-th='Sub River Basin (mm)'>Sg. Muda</td><td data-th='Last Update'>24/09/2026 01:00</td><td data-th='wl'>
+          <a href='/index.php/wl-graph/?stationid=BUMBUNGLIMA' id='wl' target='_blank'>
+          2.74</a></td><td data-th='Normal'>2.10</td><td data-th='Alert'>3.50</td><td data-th='Warning'>3.80</td><td data-th='Danger'>4.10</td></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr><tr  class='item'><td data-th='No'>19</td><td data-th='Station ID'>5403405</td><td data-th='Station Name'>Kolam Sg. Dondang</td><td data-th='District'>Timur Laut Pulau Pinang</td><td data-th='Main Basin (mm)'>Sungai Pinang</td><td data-th='Sub River Basin (mm)'>Sg. Dondang</td><td data-th='Last Update'>24/09/2026 01:10</td><td data-th='wl'>
+          <a href='/index.php/wl-graph/?stationid=5302004_' id='wl' target='_blank'>
+          19.25</a></td><td data-th='Normal'>19.50</td><td data-th='Alert'>21.00</td><td data-th='Warning'>21.20</td><td data-th='Danger'>21.50</td></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr><tr  class='item'><td data-th='No'>21</td><td data-th='Station ID'>No Data</td><td data-th='Station Name'>Sg. Burong di Politeknik Balik Pulau</td><td data-th='District'>Barat Daya Pulau Pinang</td><td data-th='Main Basin (mm)'>Sungai Burong</td><td data-th='Sub River Basin (mm)'>Sg. Burong</td><td data-th='Last Update'>24/09/2026 01:00</td><td data-th='wl'>
+          <a href='/index.php/wl-graph/?stationid=26189' id='wl' target='_blank'>
+          2.11</a></td><td data-th='Normal'>0.00</td><td data-th='Alert'>2.80</td><td data-th='Warning'>3.00</td><td data-th='Danger'>3.60</td></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr><tr  class='item'><td data-th='No'>22</td><td data-th='Station ID'>0090351WL</td><td data-th='Station Name'>Sg. Kerian di Sri Sanglang (F2)</td><td data-th='District'>Seberang Perai Selatan</td><td data-th='Main Basin (mm)'>Sungai Kerian (P. Pinang)</td><td data-th='Sub River Basin (mm)'>Sg. Kerian</td><td data-th='Last Update'>23/09/2026 15:15</td><td data-th='wl'>
+          <a href='/index.php/wl-graph/?stationid=26460' id='wl' target='_blank'>
+          0.09</a></td><td data-th='Normal'>2.00</td><td data-th='Alert'>6.00</td><td data-th='Warning'>10.00</td><td data-th='Danger'>12.00</td></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></tr></table>
+        </table>
+        </div>

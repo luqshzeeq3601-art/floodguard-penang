@@ -1,0 +1,9 @@
+# Graphify extraction excludes, on top of .gitignore (read automatically) and
+# Graphify's built-in skips (.venv, caches, build/dist, graphify-out/).
+# Only add what is not project architecture.
+
+# Vendored third-party skill references (K-Dense); FloodGuard's own skills stay indexed.
+.claude/skills/scikit-learn/
+.claude/skills/statsmodels/
+.claude/skills/geopandas/
+.claude/skills/geomaster/

@@ -1,0 +1,77 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "floodguard"
+dynamic = ["version"]
+description = "ML flood early-warning platform for Pulau Pinang, Malaysia."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Private :: Do Not Upload",
+]
+# Core: needed for Phase 1-2 data discovery, validation, and tabular processing.
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "pydantic>=2.7",
+]
+
+[project.optional-dependencies]
+# Phase 5-6 classical ML. Heavier/later stacks are added when their phase starts.
+ml = [
+    "scikit-learn>=1.5",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.11",
+    "pandas-stubs>=2.2",
+    "pytest>=8.2",
+    "pytest-cov>=5.0",
+    "ruff>=0.6",
+]
+
+[tool.hatch.version]
+path = "src/floodguard/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/floodguard"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = ["src", "tests"]
+# Python only: keep the formatter away from Markdown docs and agent instructions.
+include = ["*.py", "*.pyi", "pyproject.toml"]
+# Third-party Claude skill scripts are vendored as-is; not project code.
+extend-exclude = [".claude"]
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "I", "B", "UP", "SIM", "N", "RUF", "PT", "DTZ"]
+
+[tool.mypy]
+python_version = "3.11"
+files = ["src", "tests", "scripts"]
+strict = true
+warn_unreachable = true
+plugins = ["pydantic.mypy"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = ["-ra", "--strict-markers", "--strict-config", "--import-mode=importlib"]
+markers = [
+    "integration: requires external services (database, network)",
+    "slow: long-running; excluded from the default fast suite when selected with -m",
+]
+
+[tool.coverage.run]
+source = ["floodguard"]
+branch = true
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true

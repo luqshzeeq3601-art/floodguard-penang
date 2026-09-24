@@ -1,0 +1,2746 @@
+[
+ {
+  "location": {
+   "location_id": "Ds011",
+   "location_name": "Barat Daya"
+  },
+  "date": "2026-09-30",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir di beberapa tempat",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di beberapa tempat",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Ds011",
+   "location_name": "Barat Daya"
+  },
+  "date": "2026-09-29",
+  "morning_forecast": "Ribut petir di beberapa tempat",
+  "afternoon_forecast": "Ribut petir di beberapa tempat",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di beberapa tempat",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Ds011",
+   "location_name": "Barat Daya"
+  },
+  "date": "2026-09-28",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir di beberapa tempat",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di beberapa tempat",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Ds011",
+   "location_name": "Barat Daya"
+  },
+  "date": "2026-09-27",
+  "morning_forecast": "Ribut petir di kebanyakan tempat",
+  "afternoon_forecast": "Ribut petir di kebanyakan tempat",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di kebanyakan tempat",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Ds011",
+   "location_name": "Barat Daya"
+  },
+  "date": "2026-09-26",
+  "morning_forecast": "Ribut petir di beberapa tempat",
+  "afternoon_forecast": "Ribut petir di beberapa tempat",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di beberapa tempat",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Ds011",
+   "location_name": "Barat Daya"
+  },
+  "date": "2026-09-25",
+  "morning_forecast": "Ribut petir di beberapa tempat",
+  "afternoon_forecast": "Tiada Hujan",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di beberapa tempat",
+  "summary_when": "Pagi",
+  "min_temp": 25,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Ds011",
+   "location_name": "Barat Daya"
+  },
+  "date": "2026-09-24",
+  "morning_forecast": "Hujan di beberapa tempat",
+  "afternoon_forecast": "Ribut petir di beberapa tempat",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di beberapa tempat",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Ds012",
+   "location_name": "Timur Laut"
+  },
+  "date": "2026-09-30",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir di beberapa tempat",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di beberapa tempat",
+  "summary_when": "Petang",
+  "min_temp": 24,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Ds012",
+   "location_name": "Timur Laut"
+  },
+  "date": "2026-09-29",
+  "morning_forecast": "Ribut petir di kebanyakan tempat",
+  "afternoon_forecast": "Ribut petir di beberapa tempat",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di kebanyakan tempat",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 24,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Ds012",
+   "location_name": "Timur Laut"
+  },
+  "date": "2026-09-28",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir di beberapa tempat",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di beberapa tempat",
+  "summary_when": "Petang",
+  "min_temp": 24,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Ds012",
+   "location_name": "Timur Laut"
+  },
+  "date": "2026-09-27",
+  "morning_forecast": "Ribut petir di kebanyakan tempat",
+  "afternoon_forecast": "Ribut petir di kebanyakan tempat",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di kebanyakan tempat",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 24,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Ds012",
+   "location_name": "Timur Laut"
+  },
+  "date": "2026-09-26",
+  "morning_forecast": "Ribut petir di beberapa tempat",
+  "afternoon_forecast": "Ribut petir di beberapa tempat",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di beberapa tempat",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 24,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Ds012",
+   "location_name": "Timur Laut"
+  },
+  "date": "2026-09-25",
+  "morning_forecast": "Ribut petir di beberapa tempat",
+  "afternoon_forecast": "Tiada Hujan",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di beberapa tempat",
+  "summary_when": "Pagi",
+  "min_temp": 24,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Ds012",
+   "location_name": "Timur Laut"
+  },
+  "date": "2026-09-24",
+  "morning_forecast": "Hujan di kebanyakan tempat",
+  "afternoon_forecast": "Ribut petir di beberapa tempat",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di beberapa tempat",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 24,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Ds013",
+   "location_name": "Seberang Perai Utara"
+  },
+  "date": "2026-09-30",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir di beberapa tempat",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di beberapa tempat",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "Ds013",
+   "location_name": "Seberang Perai Utara"
+  },
+  "date": "2026-09-29",
+  "morning_forecast": "Ribut petir di beberapa tempat",
+  "afternoon_forecast": "Ribut petir di beberapa tempat",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di beberapa tempat",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "Ds013",
+   "location_name": "Seberang Perai Utara"
+  },
+  "date": "2026-09-28",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir di beberapa tempat",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di beberapa tempat",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "Ds013",
+   "location_name": "Seberang Perai Utara"
+  },
+  "date": "2026-09-27",
+  "morning_forecast": "Ribut petir di beberapa tempat",
+  "afternoon_forecast": "Ribut petir di beberapa tempat",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di beberapa tempat",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Ds013",
+   "location_name": "Seberang Perai Utara"
+  },
+  "date": "2026-09-26",
+  "morning_forecast": "Ribut petir di beberapa tempat",
+  "afternoon_forecast": "Ribut petir di beberapa tempat",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di beberapa tempat",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Ds013",
+   "location_name": "Seberang Perai Utara"
+  },
+  "date": "2026-09-25",
+  "morning_forecast": "Ribut petir di beberapa tempat",
+  "afternoon_forecast": "Tiada Hujan",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di beberapa tempat",
+  "summary_when": "Pagi",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Ds013",
+   "location_name": "Seberang Perai Utara"
+  },
+  "date": "2026-09-24",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir di beberapa tempat",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di beberapa tempat",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Ds014",
+   "location_name": "Seberang Perai Tengah"
+  },
+  "date": "2026-09-30",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir di beberapa tempat",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di beberapa tempat",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "Ds014",
+   "location_name": "Seberang Perai Tengah"
+  },
+  "date": "2026-09-29",
+  "morning_forecast": "Ribut petir di beberapa tempat",
+  "afternoon_forecast": "Ribut petir di beberapa tempat",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di beberapa tempat",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "Ds014",
+   "location_name": "Seberang Perai Tengah"
+  },
+  "date": "2026-09-28",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir di beberapa tempat",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di beberapa tempat",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "Ds014",
+   "location_name": "Seberang Perai Tengah"
+  },
+  "date": "2026-09-27",
+  "morning_forecast": "Ribut petir di kebanyakan tempat",
+  "afternoon_forecast": "Ribut petir di kebanyakan tempat",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di kebanyakan tempat",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Ds014",
+   "location_name": "Seberang Perai Tengah"
+  },
+  "date": "2026-09-26",
+  "morning_forecast": "Ribut petir di beberapa tempat",
+  "afternoon_forecast": "Ribut petir di beberapa tempat",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di beberapa tempat",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Ds014",
+   "location_name": "Seberang Perai Tengah"
+  },
+  "date": "2026-09-25",
+  "morning_forecast": "Ribut petir di beberapa tempat",
+  "afternoon_forecast": "Tiada Hujan",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di beberapa tempat",
+  "summary_when": "Pagi",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Ds014",
+   "location_name": "Seberang Perai Tengah"
+  },
+  "date": "2026-09-24",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir di beberapa tempat",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di beberapa tempat",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Ds017",
+   "location_name": "Seberang Perai Selatan"
+  },
+  "date": "2026-09-30",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir di beberapa tempat",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di beberapa tempat",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "Ds017",
+   "location_name": "Seberang Perai Selatan"
+  },
+  "date": "2026-09-29",
+  "morning_forecast": "Ribut petir di beberapa tempat",
+  "afternoon_forecast": "Ribut petir di beberapa tempat",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di beberapa tempat",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "Ds017",
+   "location_name": "Seberang Perai Selatan"
+  },
+  "date": "2026-09-28",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Tiada Hujan",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Tiada Hujan",
+  "summary_when": "Sepanjang Hari",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "Ds017",
+   "location_name": "Seberang Perai Selatan"
+  },
+  "date": "2026-09-27",
+  "morning_forecast": "Ribut petir di kebanyakan tempat",
+  "afternoon_forecast": "Ribut petir di kebanyakan tempat",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di kebanyakan tempat",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Ds017",
+   "location_name": "Seberang Perai Selatan"
+  },
+  "date": "2026-09-26",
+  "morning_forecast": "Ribut petir di beberapa tempat",
+  "afternoon_forecast": "Ribut petir di beberapa tempat",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di beberapa tempat",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Ds017",
+   "location_name": "Seberang Perai Selatan"
+  },
+  "date": "2026-09-25",
+  "morning_forecast": "Ribut petir di beberapa tempat",
+  "afternoon_forecast": "Tiada Hujan",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di beberapa tempat",
+  "summary_when": "Pagi",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Ds017",
+   "location_name": "Seberang Perai Selatan"
+  },
+  "date": "2026-09-24",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir di beberapa tempat",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di beberapa tempat",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Rc002",
+   "location_name": "Taman Negara Pulau Pinang"
+  },
+  "date": "2026-09-30",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Rc002",
+   "location_name": "Taman Negara Pulau Pinang"
+  },
+  "date": "2026-09-29",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Rc002",
+   "location_name": "Taman Negara Pulau Pinang"
+  },
+  "date": "2026-09-28",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Rc002",
+   "location_name": "Taman Negara Pulau Pinang"
+  },
+  "date": "2026-09-27",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Rc002",
+   "location_name": "Taman Negara Pulau Pinang"
+  },
+  "date": "2026-09-26",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Rc002",
+   "location_name": "Taman Negara Pulau Pinang"
+  },
+  "date": "2026-09-25",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Tiada Hujan",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi",
+  "min_temp": 25,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Rc002",
+   "location_name": "Taman Negara Pulau Pinang"
+  },
+  "date": "2026-09-24",
+  "morning_forecast": "Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Rc003",
+   "location_name": "Batu Feringgi"
+  },
+  "date": "2026-09-30",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 24,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Rc003",
+   "location_name": "Batu Feringgi"
+  },
+  "date": "2026-09-29",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 24,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Rc003",
+   "location_name": "Batu Feringgi"
+  },
+  "date": "2026-09-28",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 24,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Rc003",
+   "location_name": "Batu Feringgi"
+  },
+  "date": "2026-09-27",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 24,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Rc003",
+   "location_name": "Batu Feringgi"
+  },
+  "date": "2026-09-26",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 24,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Rc003",
+   "location_name": "Batu Feringgi"
+  },
+  "date": "2026-09-25",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Tiada Hujan",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi",
+  "min_temp": 24,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Rc003",
+   "location_name": "Batu Feringgi"
+  },
+  "date": "2026-09-24",
+  "morning_forecast": "Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 24,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Rc004",
+   "location_name": "Bukit Bendera"
+  },
+  "date": "2026-09-30",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 24,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Rc004",
+   "location_name": "Bukit Bendera"
+  },
+  "date": "2026-09-29",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 24,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Rc004",
+   "location_name": "Bukit Bendera"
+  },
+  "date": "2026-09-28",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 24,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Rc004",
+   "location_name": "Bukit Bendera"
+  },
+  "date": "2026-09-27",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 24,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Rc004",
+   "location_name": "Bukit Bendera"
+  },
+  "date": "2026-09-26",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 24,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Rc004",
+   "location_name": "Bukit Bendera"
+  },
+  "date": "2026-09-25",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Tiada Hujan",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi",
+  "min_temp": 24,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Rc004",
+   "location_name": "Bukit Bendera"
+  },
+  "date": "2026-09-24",
+  "morning_forecast": "Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 24,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "St003",
+   "location_name": "Pulau Pinang"
+  },
+  "date": "2026-09-30",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir di beberapa tempat",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di beberapa tempat",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "St003",
+   "location_name": "Pulau Pinang"
+  },
+  "date": "2026-09-29",
+  "morning_forecast": "Ribut petir di beberapa tempat di kawasan pantai",
+  "afternoon_forecast": "Ribut petir di beberapa tempat",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di beberapa tempat di kawasan pantai",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "St003",
+   "location_name": "Pulau Pinang"
+  },
+  "date": "2026-09-28",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir di beberapa tempat",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di beberapa tempat",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "St003",
+   "location_name": "Pulau Pinang"
+  },
+  "date": "2026-09-27",
+  "morning_forecast": "Ribut petir di kebanyakan tempat di kawasan pantai",
+  "afternoon_forecast": "Ribut petir di kebanyakan tempat di kawasan pantai",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di kebanyakan tempat di kawasan pantai",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "St003",
+   "location_name": "Pulau Pinang"
+  },
+  "date": "2026-09-26",
+  "morning_forecast": "Ribut petir di beberapa tempat di kawasan pantai",
+  "afternoon_forecast": "Ribut petir di beberapa tempat",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di beberapa tempat di kawasan pantai",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "St003",
+   "location_name": "Pulau Pinang"
+  },
+  "date": "2026-09-25",
+  "morning_forecast": "Ribut petir di beberapa tempat di kawasan pantai",
+  "afternoon_forecast": "Tiada Hujan",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di beberapa tempat di kawasan pantai",
+  "summary_when": "Pagi",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "St003",
+   "location_name": "Pulau Pinang"
+  },
+  "date": "2026-09-24",
+  "morning_forecast": "Hujan di beberapa tempat di kawasan pantai",
+  "afternoon_forecast": "Ribut petir di beberapa tempat",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir di beberapa tempat",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn009",
+   "location_name": "Balik Pulau"
+  },
+  "date": "2026-09-30",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn009",
+   "location_name": "Balik Pulau"
+  },
+  "date": "2026-09-29",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn009",
+   "location_name": "Balik Pulau"
+  },
+  "date": "2026-09-28",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn009",
+   "location_name": "Balik Pulau"
+  },
+  "date": "2026-09-27",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn009",
+   "location_name": "Balik Pulau"
+  },
+  "date": "2026-09-26",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn009",
+   "location_name": "Balik Pulau"
+  },
+  "date": "2026-09-25",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Tiada Hujan",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi",
+  "min_temp": 25,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn009",
+   "location_name": "Balik Pulau"
+  },
+  "date": "2026-09-24",
+  "morning_forecast": "Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn010",
+   "location_name": "Ayer Itam"
+  },
+  "date": "2026-09-30",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 24,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn010",
+   "location_name": "Ayer Itam"
+  },
+  "date": "2026-09-29",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 24,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn010",
+   "location_name": "Ayer Itam"
+  },
+  "date": "2026-09-28",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 24,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn010",
+   "location_name": "Ayer Itam"
+  },
+  "date": "2026-09-27",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 24,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn010",
+   "location_name": "Ayer Itam"
+  },
+  "date": "2026-09-26",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 24,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn010",
+   "location_name": "Ayer Itam"
+  },
+  "date": "2026-09-25",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Tiada Hujan",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi",
+  "min_temp": 24,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn010",
+   "location_name": "Ayer Itam"
+  },
+  "date": "2026-09-24",
+  "morning_forecast": "Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 24,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn012",
+   "location_name": "Kepala Batas"
+  },
+  "date": "2026-09-30",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "Tn012",
+   "location_name": "Kepala Batas"
+  },
+  "date": "2026-09-29",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "Tn012",
+   "location_name": "Kepala Batas"
+  },
+  "date": "2026-09-28",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "Tn012",
+   "location_name": "Kepala Batas"
+  },
+  "date": "2026-09-27",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn012",
+   "location_name": "Kepala Batas"
+  },
+  "date": "2026-09-26",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn012",
+   "location_name": "Kepala Batas"
+  },
+  "date": "2026-09-25",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Tiada Hujan",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn012",
+   "location_name": "Kepala Batas"
+  },
+  "date": "2026-09-24",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn013",
+   "location_name": "Georgetown"
+  },
+  "date": "2026-09-30",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 24,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn013",
+   "location_name": "Georgetown"
+  },
+  "date": "2026-09-29",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 24,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn013",
+   "location_name": "Georgetown"
+  },
+  "date": "2026-09-28",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 24,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn013",
+   "location_name": "Georgetown"
+  },
+  "date": "2026-09-27",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 24,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn013",
+   "location_name": "Georgetown"
+  },
+  "date": "2026-09-26",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 24,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn013",
+   "location_name": "Georgetown"
+  },
+  "date": "2026-09-25",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Tiada Hujan",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi",
+  "min_temp": 24,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn013",
+   "location_name": "Georgetown"
+  },
+  "date": "2026-09-24",
+  "morning_forecast": "Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 24,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn014",
+   "location_name": "Butterworth"
+  },
+  "date": "2026-09-30",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "Tn014",
+   "location_name": "Butterworth"
+  },
+  "date": "2026-09-29",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "Tn014",
+   "location_name": "Butterworth"
+  },
+  "date": "2026-09-28",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "Tn014",
+   "location_name": "Butterworth"
+  },
+  "date": "2026-09-27",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn014",
+   "location_name": "Butterworth"
+  },
+  "date": "2026-09-26",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn014",
+   "location_name": "Butterworth"
+  },
+  "date": "2026-09-25",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Tiada Hujan",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn014",
+   "location_name": "Butterworth"
+  },
+  "date": "2026-09-24",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn015",
+   "location_name": "Bayan Lepas"
+  },
+  "date": "2026-09-30",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn015",
+   "location_name": "Bayan Lepas"
+  },
+  "date": "2026-09-29",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn015",
+   "location_name": "Bayan Lepas"
+  },
+  "date": "2026-09-28",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn015",
+   "location_name": "Bayan Lepas"
+  },
+  "date": "2026-09-27",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn015",
+   "location_name": "Bayan Lepas"
+  },
+  "date": "2026-09-26",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn015",
+   "location_name": "Bayan Lepas"
+  },
+  "date": "2026-09-25",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Tiada Hujan",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi",
+  "min_temp": 25,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn015",
+   "location_name": "Bayan Lepas"
+  },
+  "date": "2026-09-24",
+  "morning_forecast": "Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn016",
+   "location_name": "Perai"
+  },
+  "date": "2026-09-30",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "Tn016",
+   "location_name": "Perai"
+  },
+  "date": "2026-09-29",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "Tn016",
+   "location_name": "Perai"
+  },
+  "date": "2026-09-28",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "Tn016",
+   "location_name": "Perai"
+  },
+  "date": "2026-09-27",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn016",
+   "location_name": "Perai"
+  },
+  "date": "2026-09-26",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn016",
+   "location_name": "Perai"
+  },
+  "date": "2026-09-25",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Tiada Hujan",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn016",
+   "location_name": "Perai"
+  },
+  "date": "2026-09-24",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn017",
+   "location_name": "Bukit Tengah"
+  },
+  "date": "2026-09-30",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "Tn017",
+   "location_name": "Bukit Tengah"
+  },
+  "date": "2026-09-29",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "Tn017",
+   "location_name": "Bukit Tengah"
+  },
+  "date": "2026-09-28",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "Tn017",
+   "location_name": "Bukit Tengah"
+  },
+  "date": "2026-09-27",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn017",
+   "location_name": "Bukit Tengah"
+  },
+  "date": "2026-09-26",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn017",
+   "location_name": "Bukit Tengah"
+  },
+  "date": "2026-09-25",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Tiada Hujan",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn017",
+   "location_name": "Bukit Tengah"
+  },
+  "date": "2026-09-24",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn018",
+   "location_name": "Bukit Mertajam"
+  },
+  "date": "2026-09-30",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "Tn018",
+   "location_name": "Bukit Mertajam"
+  },
+  "date": "2026-09-29",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "Tn018",
+   "location_name": "Bukit Mertajam"
+  },
+  "date": "2026-09-28",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "Tn018",
+   "location_name": "Bukit Mertajam"
+  },
+  "date": "2026-09-27",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn018",
+   "location_name": "Bukit Mertajam"
+  },
+  "date": "2026-09-26",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn018",
+   "location_name": "Bukit Mertajam"
+  },
+  "date": "2026-09-25",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Tiada Hujan",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn018",
+   "location_name": "Bukit Mertajam"
+  },
+  "date": "2026-09-24",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn019",
+   "location_name": "Batu Kawan"
+  },
+  "date": "2026-09-30",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "Tn019",
+   "location_name": "Batu Kawan"
+  },
+  "date": "2026-09-29",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "Tn019",
+   "location_name": "Batu Kawan"
+  },
+  "date": "2026-09-28",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Tiada Hujan",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Tiada Hujan",
+  "summary_when": "Sepanjang Hari",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "Tn019",
+   "location_name": "Batu Kawan"
+  },
+  "date": "2026-09-27",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn019",
+   "location_name": "Batu Kawan"
+  },
+  "date": "2026-09-26",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn019",
+   "location_name": "Batu Kawan"
+  },
+  "date": "2026-09-25",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Tiada Hujan",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn019",
+   "location_name": "Batu Kawan"
+  },
+  "date": "2026-09-24",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn022",
+   "location_name": "Nibong Tebal"
+  },
+  "date": "2026-09-30",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "Tn022",
+   "location_name": "Nibong Tebal"
+  },
+  "date": "2026-09-29",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "Tn022",
+   "location_name": "Nibong Tebal"
+  },
+  "date": "2026-09-28",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Tiada Hujan",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Tiada Hujan",
+  "summary_when": "Sepanjang Hari",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "Tn022",
+   "location_name": "Nibong Tebal"
+  },
+  "date": "2026-09-27",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn022",
+   "location_name": "Nibong Tebal"
+  },
+  "date": "2026-09-26",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn022",
+   "location_name": "Nibong Tebal"
+  },
+  "date": "2026-09-25",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Tiada Hujan",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn022",
+   "location_name": "Nibong Tebal"
+  },
+  "date": "2026-09-24",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn160",
+   "location_name": "Bayan Baru"
+  },
+  "date": "2026-09-30",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn160",
+   "location_name": "Bayan Baru"
+  },
+  "date": "2026-09-29",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn160",
+   "location_name": "Bayan Baru"
+  },
+  "date": "2026-09-28",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn160",
+   "location_name": "Bayan Baru"
+  },
+  "date": "2026-09-27",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn160",
+   "location_name": "Bayan Baru"
+  },
+  "date": "2026-09-26",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn160",
+   "location_name": "Bayan Baru"
+  },
+  "date": "2026-09-25",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Tiada Hujan",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi",
+  "min_temp": 25,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn160",
+   "location_name": "Bayan Baru"
+  },
+  "date": "2026-09-24",
+  "morning_forecast": "Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn167",
+   "location_name": "Sungai Dua - Sungai Nibong"
+  },
+  "date": "2026-09-30",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn167",
+   "location_name": "Sungai Dua - Sungai Nibong"
+  },
+  "date": "2026-09-29",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn167",
+   "location_name": "Sungai Dua - Sungai Nibong"
+  },
+  "date": "2026-09-28",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn167",
+   "location_name": "Sungai Dua - Sungai Nibong"
+  },
+  "date": "2026-09-27",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn167",
+   "location_name": "Sungai Dua - Sungai Nibong"
+  },
+  "date": "2026-09-26",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn167",
+   "location_name": "Sungai Dua - Sungai Nibong"
+  },
+  "date": "2026-09-25",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Tiada Hujan",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi",
+  "min_temp": 25,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn167",
+   "location_name": "Sungai Dua - Sungai Nibong"
+  },
+  "date": "2026-09-24",
+  "morning_forecast": "Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn170",
+   "location_name": "Gelugor"
+  },
+  "date": "2026-09-30",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 24,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn170",
+   "location_name": "Gelugor"
+  },
+  "date": "2026-09-29",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 24,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn170",
+   "location_name": "Gelugor"
+  },
+  "date": "2026-09-28",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 24,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn170",
+   "location_name": "Gelugor"
+  },
+  "date": "2026-09-27",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 24,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn170",
+   "location_name": "Gelugor"
+  },
+  "date": "2026-09-26",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 24,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn170",
+   "location_name": "Gelugor"
+  },
+  "date": "2026-09-25",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Tiada Hujan",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi",
+  "min_temp": 24,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn170",
+   "location_name": "Gelugor"
+  },
+  "date": "2026-09-24",
+  "morning_forecast": "Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 24,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn172",
+   "location_name": "Tanjung Bungah"
+  },
+  "date": "2026-09-30",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 24,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn172",
+   "location_name": "Tanjung Bungah"
+  },
+  "date": "2026-09-29",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 24,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn172",
+   "location_name": "Tanjung Bungah"
+  },
+  "date": "2026-09-28",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 24,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn172",
+   "location_name": "Tanjung Bungah"
+  },
+  "date": "2026-09-27",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 24,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn172",
+   "location_name": "Tanjung Bungah"
+  },
+  "date": "2026-09-26",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 24,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn172",
+   "location_name": "Tanjung Bungah"
+  },
+  "date": "2026-09-25",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Tiada Hujan",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi",
+  "min_temp": 24,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn172",
+   "location_name": "Tanjung Bungah"
+  },
+  "date": "2026-09-24",
+  "morning_forecast": "Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 24,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn173",
+   "location_name": "Tanjung Tokong"
+  },
+  "date": "2026-09-30",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 24,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn173",
+   "location_name": "Tanjung Tokong"
+  },
+  "date": "2026-09-29",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 24,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn173",
+   "location_name": "Tanjung Tokong"
+  },
+  "date": "2026-09-28",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 24,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn173",
+   "location_name": "Tanjung Tokong"
+  },
+  "date": "2026-09-27",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 24,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn173",
+   "location_name": "Tanjung Tokong"
+  },
+  "date": "2026-09-26",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 24,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn173",
+   "location_name": "Tanjung Tokong"
+  },
+  "date": "2026-09-25",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Tiada Hujan",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi",
+  "min_temp": 24,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn173",
+   "location_name": "Tanjung Tokong"
+  },
+  "date": "2026-09-24",
+  "morning_forecast": "Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 24,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn175",
+   "location_name": "Sungai Ara"
+  },
+  "date": "2026-09-30",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn175",
+   "location_name": "Sungai Ara"
+  },
+  "date": "2026-09-29",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn175",
+   "location_name": "Sungai Ara"
+  },
+  "date": "2026-09-28",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn175",
+   "location_name": "Sungai Ara"
+  },
+  "date": "2026-09-27",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn175",
+   "location_name": "Sungai Ara"
+  },
+  "date": "2026-09-26",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn175",
+   "location_name": "Sungai Ara"
+  },
+  "date": "2026-09-25",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Tiada Hujan",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi",
+  "min_temp": 25,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn175",
+   "location_name": "Sungai Ara"
+  },
+  "date": "2026-09-24",
+  "morning_forecast": "Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 31
+ },
+ {
+  "location": {
+   "location_id": "Tn176",
+   "location_name": "Juru"
+  },
+  "date": "2026-09-30",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "Tn176",
+   "location_name": "Juru"
+  },
+  "date": "2026-09-29",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "Tn176",
+   "location_name": "Juru"
+  },
+  "date": "2026-09-28",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "Tn176",
+   "location_name": "Juru"
+  },
+  "date": "2026-09-27",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn176",
+   "location_name": "Juru"
+  },
+  "date": "2026-09-26",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn176",
+   "location_name": "Juru"
+  },
+  "date": "2026-09-25",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Tiada Hujan",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn176",
+   "location_name": "Juru"
+  },
+  "date": "2026-09-24",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn177",
+   "location_name": "Jawi"
+  },
+  "date": "2026-09-30",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "Tn177",
+   "location_name": "Jawi"
+  },
+  "date": "2026-09-29",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "Tn177",
+   "location_name": "Jawi"
+  },
+  "date": "2026-09-28",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Tiada Hujan",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Tiada Hujan",
+  "summary_when": "Sepanjang Hari",
+  "min_temp": 25,
+  "max_temp": 33
+ },
+ {
+  "location": {
+   "location_id": "Tn177",
+   "location_name": "Jawi"
+  },
+  "date": "2026-09-27",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn177",
+   "location_name": "Jawi"
+  },
+  "date": "2026-09-26",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi dan Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn177",
+   "location_name": "Jawi"
+  },
+  "date": "2026-09-25",
+  "morning_forecast": "Ribut petir",
+  "afternoon_forecast": "Tiada Hujan",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Pagi",
+  "min_temp": 25,
+  "max_temp": 32
+ },
+ {
+  "location": {
+   "location_id": "Tn177",
+   "location_name": "Jawi"
+  },
+  "date": "2026-09-24",
+  "morning_forecast": "Tiada Hujan",
+  "afternoon_forecast": "Ribut petir",
+  "night_forecast": "Tiada Hujan",
+  "summary_forecast": "Ribut petir",
+  "summary_when": "Petang",
+  "min_temp": 25,
+  "max_temp": 32
+ }
+]
