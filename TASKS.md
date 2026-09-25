@@ -67,46 +67,54 @@ Status values:
 
 ## Phase 5 — Baselines and ML
 
-- [ ] TODO Persistence/rule baseline.
-- [ ] TODO Logistic Regression.
-- [ ] TODO Random Forest.
-- [ ] TODO XGBoost/LightGBM.
-- [ ] TODO Chronological validation.
-- [ ] TODO Walk-forward validation where practical.
-- [ ] TODO Calibration analysis.
-- [ ] TODO SHAP analysis.
-- [ ] TODO Select candidate production model.
+- [x] DONE Persistence/rule baseline. (`src/floodguard/features/` contracts reused; `src/floodguard/modeling/baselines.py` persistence `WL(t+h)=WL(t)` per +30/+60/+120 plus origin-only rule classifier with explicit threshold-reference opt-in; partitioned train/validation/test evaluation with +120-min embargo in `scripts/train_baseline.py`; missing futures excluded never zero-filled; `tests/test_modeling_baselines.py`; real evaluation blocked — zero positives. See `docs/PHASE5_MODELING.md` §2.)
+- [x] DONE Logistic Regression. (Deterministic sklearn classifier, CPU; scaling/imputation owned by train-only `FittedPreprocessor`; class weights train-only both-classes-required; single-class partitions return `INFEASIBLE_SINGLE_CLASS`; `src/floodguard/modeling/logistic.py` + `scripts/train_model.py --model logistic`; synthetic verification in `tests/test_modeling_learners.py`; real training infeasible — zero positives. See `docs/PHASE5_MODELING.md` §3.)
+- [x] DONE Random Forest. (Deterministic `random_state`, `n_jobs=1`, CPU; small defaults for synthetic tests; chronological semantics preserved by callers; importance as contribution never causality; `src/floodguard/modeling/forest.py`; synthetic verification; real training infeasible. See `docs/PHASE5_MODELING.md` §3.)
+- [x] DONE XGBoost/LightGBM. (Implemented as **XGBoost** CPU only — the TASKS.md entry is singular so LightGBM intentionally not added; xgboost 3.2.0 `tree_method="hist"` `device="cpu"`, constructor rejects non-CPU; added to `ml` extra as `xgboost>=2.0,<4`, `uv pip check` clean; `src/floodguard/modeling/gradient_boosting.py`; synthetic verification; no GPU benchmarking — data not compute is the bottleneck. See `docs/PHASE5_MODELING.md` §3 & §13.)
+- [x] DONE Chronological validation. (Centralized `src/floodguard/modeling/splits.py`: exact-timestamp `train < validation < test`, +120-min purge/embargo with counts, loud ordering invariant, boundary tests at exact/±1-interval/±120-min offsets, `INSUFFICIENT_EVENT_SUPPORT` structure; training scripts reuse the same rule index-keyed with count asserts (review H1). `tests/test_modeling_splits.py` + `tests/test_modeling_leakage.py`. See `docs/PHASE5_MODELING.md` §4.)
+- [x] DONE Walk-forward validation where practical. (Expanding-window `walk_forward_folds` with identical embargo semantics; first-fold embargo zone purged never validated (review M2); synthetic verification; real walk-forward infeasible — zero episodes. `tests/test_modeling_splits.py`. See `docs/PHASE5_MODELING.md` §4.)
+- [x] DONE Calibration analysis. (Sigmoid/isotonic fit on train/val only, seeded, chronological; frozen apply to test; decision thresholds optimized on validation `max_f1` grid, frozen, single test pass; undefined stays `NOT_EVALUABLE`; real optimization blocked — zero positives. `src/floodguard/modeling/calibration.py` + `thresholds.py`; `tests/test_modeling_evaluation.py`. See `docs/PHASE5_MODELING.md` §7.)
+- [x] DONE SHAP analysis. (`src/floodguard/modeling/shap_analysis.py`: exact SHAP when optional `shap` installed, else deterministic permutation fallback; contribution framing never causality; `shap` stays optional so normal pytest never requires it. `tests/test_modeling_evaluation.py`. See `docs/PHASE5_MODELING.md` §12.)
+- [x] DONE Select candidate production model. (Comparison requires identical dataset/feature/label/horizon/split/period; per-horizon feasibility minima (review M1); champion needs eligible runs with ≥ 10 eval positives; real result `NO_ELIGIBLE_MODEL — INSUFFICIENT_EVENT_SUPPORT`, correctly preferred over a misleading best-model claim. `src/floodguard/modeling/comparison.py` + `scripts/train_model.py`/`evaluate_model.py`. See `docs/PHASE5_MODELING.md` §8.)
+
+Phase 5 is **software/methodology complete**; **NO REAL FLOOD CLASSIFICATION MODEL IS EMPIRICALLY VALIDATED YET** (zero positive flood-proxy events in local captures). Shared gates: `modeling/{features,preprocessing,labels,feasibility,metrics,artifacts,synthetic}.py`; leakage gates: `tests/test_modeling_leakage.py`; reviewer regressions: `tests/test_modeling_reviewer_regressions.py`. Independent audit: 1 HIGH + 5 MEDIUM + material LOWs fixed. Evidence: `docs/PHASE5_MODELING.md`, `docs/PHASE5_COMPLETION.md`. First Phase 6 task (`Persistence baseline.`, water-level forecasting) NOT STARTED.
 
 ## Phase 6 — Water-Level Forecasting
 
-- [ ] TODO Persistence baseline.
-- [ ] TODO Statistical baseline.
-- [ ] TODO Gradient boosting with lag features.
-- [ ] TODO LSTM/GRU only if justified.
-- [ ] TODO Optional TimesFM benchmark.
-- [ ] TODO Horizon-specific MAE/RMSE.
+- [x] DONE Persistence baseline. (Point-in-time `WL(t+h)=WL(t)` per +30/+60/+120 and per station from forecast samples; exact usable targets only, missing never interpolated; per-station metrics primary plus explicitly sample-weighted overall; partitioned train/validation/test scoring with the centralized +120-min embargo in `scripts/train_forecast_baseline.py`; `src/floodguard/forecasting/dataset.py` + `persistence.py`; synthetic verification in `tests/test_forecasting_dataset.py` + `test_forecasting_baselines.py`; no local dataset in checkout so no real diagnostics computed. See `docs/PHASE6_FORECASTING.md` §2.)
+- [x] DONE Statistical baseline. (Per-station linear OLS autoregression over exact origin-exclusive lags 5–120m, train-only fit, CPU, deterministic closed form; single lag definition shared by train/eval scripts via library builders (review M1); `src/floodguard/forecasting/statistical.py` + `scripts/train_forecaster.py --model statistical`; synthetic verification incl. beating persistence on linear rise. See `docs/PHASE6_FORECASTING.md` §4.)
+- [x] DONE Gradient boosting with lag features. (Per-station XGBoost regressors over lags + backward deltas, CPU-only `tree_method="hist"` `device="cpu"` non-CPU rejected, seed-fixed; no LightGBM per single-family policy; `src/floodguard/forecasting/gradient_boosting.py` + `scripts/train_forecaster.py --model xgboost`; synthetic verification + determinism. See `docs/PHASE6_FORECASTING.md` §4.)
+- [x] DONE LSTM/GRU only if justified. (Assessment outcome: `NOT_JUSTIFIED` — gate needs ≥ 1000 training samples and ≥ 2 stations with ≥ 30 covered days; current two station-days fail every criterion; no PyTorch added, no GPU introduced, nothing trained. `src/floodguard/forecasting/sequence_gate.py` + `scripts/train_forecaster.py --lstm-gru`; tests in `tests/test_forecasting_gates.py`. Training stays blocked on permitted multi-year history. See `docs/PHASE6_FORECASTING.md` §12.)
+- [x] DONE Optional TimesFM benchmark. (Protocol + harness complete: availability check over installed package + local checkpoint dir, injectable zero-shot runner so tests stay offline; no dependency, no checkpoint, no downloads, no superiority assumption; execution blocked without setup. `src/floodguard/forecasting/timesfm.py` + `scripts/train_forecaster.py --timesfm`; tests in `tests/test_forecasting_gates.py`. See `docs/PHASE6_FORECASTING.md` §12.)
+- [x] DONE Horizon-specific MAE/RMSE. (Per station × horizon MAE/RMSE/bias + sample counts via `src/floodguard/forecasting/evaluation.py`; persistence skill with divide-by-zero guard; no MAPE; eligibility gate needs identical context + ≥ 30 targets + covered stations else `NO_ELIGIBLE_FORECAST_MODEL`; single-pass test eval with horizon-match enforcement in `scripts/evaluate_forecaster.py`; synthetic verification. See `docs/PHASE6_FORECASTING.md` §8.)
+
+Phase 6 is **software/methodology complete**; **NO PHASE 6 MODEL HAS BEEN VALIDATED AS A GENERALIZABLE PENANG WATER-LEVEL FORECASTER** (no local dataset in checkout; only two station-days per Phase 3 evidence). Shared: `forecasting/{preprocessing,artifacts,synthetic}.py` (per-station train-only scalers, digest-verified lineage, deterministic fixtures); leakage gates: `tests/test_forecasting_leakage.py`; artifacts: `tests/test_forecasting_artifacts.py`; lag-builder pins: `tests/test_forecasting_lag_builders.py`. Independent audit: 4 MEDIUM + 5 LOW fixed (incl. centralized `partition_rows` helper added to Phase 5 splits); final audit re-verified all fixes and raised 1 MEDIUM + 2 LOW, also fixed (builder tests, metadata-digest verification, evaluator lineage guards). No new dependencies (sklearn + xgboost + numpy only). Evidence: `docs/PHASE6_FORECASTING.md`, `docs/PHASE6_COMPLETION.md`. Pre-existing `test_station_master.py` CRLF failure FIXED via `.gitattributes` (`eol=lf` for golden fixtures) + working-tree normalization (zero content diff). First Phase 7 task (`MLflow experiments.`) NOT STARTED.
 
 ## Phase 7 — MLOps
 
-- [ ] TODO MLflow experiments.
-- [ ] TODO Model registry.
-- [ ] TODO DVC/lineage strategy.
-- [ ] TODO Model card.
-- [ ] TODO Dataset card.
-- [ ] TODO Automated model tests.
-- [ ] TODO Promotion gate.
+- [x] DONE MLflow experiments. (Local MLflow-concept-compatible run store: deterministic run IDs, params/metrics/tags/artifact refs, write-once JSON with digest sidecars, `find_runs` filters + `audit_store` verifier, `to_mlflow_tags` migration mapping; no `mlflow` package or server. `src/floodguard/mlops/experiments.py`; `tests/test_mlops_experiments.py`. See `docs/PHASE7_MLOPS.md` §1.)
+- [x] DONE Model registry. (File-based versions with gated edges `none → staging → production` + terminal `archived`; demotions/skips/rewrites rejected; `production` needs recorded PROMOTE + REAL evidence; transitions appended to `transitions.jsonl`; path-validated names. `src/floodguard/mlops/registry.py` + `scripts/register_model.py`; `tests/test_mlops_registry.py`. See `docs/PHASE7_MLOPS.md` §2.)
+- [x] DONE DVC/lineage strategy. (Content-hashed dataset/model lineage manifests with verify-backward checks; no `dvc` package or remote — DVC adoption documented as a future `dvc.yaml` plan executed only with real history scale. `src/floodguard/mlops/lineage.py`; `tests/test_mlops_registry.py`. See `docs/PHASE7_MLOPS.md` §3.)
+- [x] DONE Model card. (Deterministic Markdown from stored records; non-official disclaimer + explicit no-real-validation warning unless REAL evidence; evaluation source labeled. `src/floodguard/mlops/cards.py` + `scripts/render_cards.py`; `tests/test_mlops_cards.py`. See `docs/PHASE7_MLOPS.md` §4.)
+- [x] DONE Dataset card. (Provenance/coverage/licensing/limitations from lineage manifests; JPS permission requirement stated. `src/floodguard/mlops/cards.py`; `tests/test_mlops_cards.py`. See `docs/PHASE7_MLOPS.md` §4.)
+- [x] DONE Automated model tests. (Six offline CPU acceptance checks per artifact: digests, metadata schema, evidence label, load-and-predict, latency probe, known baseline family; failures reported never raised. `src/floodguard/mlops/validation.py`; `tests/test_mlops_promotion.py`. See `docs/PHASE7_MLOPS.md` §5.)
+- [x] DONE Promotion gate. (PROMOTE only with acceptance pass + favorable baseline comparison with task-appropriate metrics + eligibility pass + REAL evidence + leakage attestation + model card; synthetic/local BLOCK with reasons; `--apply` binds bundle run_id to the registry version. `src/floodguard/mlops/promotion.py` + `scripts/promote_model.py`; `tests/test_mlops_promotion.py`. `NO_ELIGIBLE_MODEL` preserved. See `docs/PHASE7_MLOPS.md` §6.)
+
+Phase 7 is **software/methodology complete**; no model is promotable on current evidence (registry production unreachable, gate BLOCKs synthetic/local). Shared trust rules: digest-verified loads, confined CLI artifact paths, path-validated names, relative store paths. Independent audit findings fixed (see `docs/PHASE7_MLOPS.md` §8). Evidence: `docs/PHASE7_MLOPS.md`, `docs/PHASE7_COMPLETION.md`. First Phase 8 task (`PostgreSQL/PostGIS.`) NOT STARTED.
 
 ## Phase 8 — Backend + Database
 
-- [ ] TODO PostgreSQL/PostGIS.
-- [ ] TODO Station schema.
-- [ ] TODO Observation schema.
-- [ ] TODO Prediction schema.
-- [ ] TODO Alert schema.
-- [ ] TODO FastAPI `/health`.
-- [ ] TODO FastAPI `/ready`.
-- [ ] TODO Prediction endpoints.
-- [ ] TODO Integration tests.
+- [x] DONE PostgreSQL/PostGIS. (PostGIS `geometry(POINT,4326)` on PostgreSQL via dialect-aware `Wgs84Point` (WKT text on SQLite for offline tests); SRID 4326 inferred and documented; EWKT SRID binds + WKB reads; GIST indexes; degrees-only bbox; no metric-in-degrees math. `src/floodguard/backend/types.py` + `models.py`; PG-dialect DDL tests; live runtime BLOCKED — Docker/WSL. See `docs/PHASE8_BACKEND.md` §3.)
+- [x] DONE Station schema. (Sites/sensors/sensor_thresholds mirroring station-master identities; names display-only; enum-derived CHECKs; NORMAL-never-eligible enforced; capture provenance. `src/floodguard/backend/models.py`; `tests/test_backend_models.py`. See `docs/PHASE8_BACKEND.md` §1–2.)
+- [x] DONE Observation schema. (Canonical PK `(source, sensor, type, instant)`; tz-aware times kept distinct; NULL + flags for missing rows; idempotent replay; conflicts fail loudly with raw/tz/schema identity. `src/floodguard/backend/models.py` + `repositories.py`; `tests/test_backend_repositories.py`. See `docs/PHASE8_BACKEND.md` §2.)
+- [x] DONE Prediction schema. (Per-sensor horizon forecasts with lineage; `run_id` NOT NULL so baselines are explicit states; site-must-match-sensor guard; binary-or-NULL labels; never a false production claim. `src/floodguard/backend/models.py` + `repositories.py`. See `docs/PHASE8_BACKEND.md` §2.)
+- [x] DONE Alert schema. (Storage only: type/severity/status lifecycle with CHECKs; delivery is Phase 11. `src/floodguard/backend/models.py` + `repositories.py`. See `docs/PHASE8_BACKEND.md` §1.)
+- [x] DONE FastAPI `/health`. (DB-free liveness with explicit response model. `src/floodguard/backend/api.py` + `health.py`; `tests/test_backend_api.py`. See `docs/PHASE8_BACKEND.md` §5.)
+- [x] DONE FastAPI `/ready`. (Connectivity + PostGIS-when-PostgreSQL readiness reporting, never raising. `src/floodguard/backend/api.py` + `health.py`; `tests/test_backend_api.py`. See `docs/PHASE8_BACKEND.md` §5.)
+- [x] DONE Prediction endpoints. (`/api/v1/stations`, `/stations/{id}` (+ reference thresholds), `/observations` (validated ranges), `/predictions`, `/model` (always `NO_ELIGIBLE_MODEL`), `/alerts`; explicit Pydantic models; structured errors; tz-aware I/O; naive datetimes rejected. `src/floodguard/backend/api.py` + `schemas.py`; `tests/test_backend_api.py`. See `docs/PHASE8_BACKEND.md` §5.)
+- [x] DONE Integration tests. (`tests/test_backend_integration.py`: extension, SRID, GIST bbox, migration round-trip on a live server; marked `integration`, skipped without a reachable test database — Docker BLOCKED, no local PG. Unit/integration harness complete. See `docs/PHASE8_COMPLETION.md` Runtime Verification.)
+
+Phase 8 is **software/methodology complete** except live PostgreSQL/PostGIS runtime verification (`BLOCKED`: Docker/WSL unavailable, no local server). Every FK has a covering relationship (UOW ordering pinned by regression tests); credentials env-only with redaction; no SQL concatenation; Phase 7 gates never bypassed. New dependency group `backend` (fastapi/sqlalchemy/alembic/geoalchemy2/psycopg/httpx/uvicorn). Evidence: `docs/PHASE8_BACKEND.md`, `docs/PHASE8_COMPLETION.md`. First Phase 9 task (`Overview.`) NOT STARTED.
 
 ## Phase 9 — Streamlit
 

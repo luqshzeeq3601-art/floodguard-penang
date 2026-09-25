@@ -1,0 +1,9 @@
+# FloodGuard Penang line-ending policy.
+#
+# Golden station-master fixtures are compared byte-for-byte against writer
+# output, and the writer contract is LF (`csv.writer(lineterminator="\n")`
+# in scripts/build_station_master.py). Force LF checkouts for these files so
+# Windows `core.autocrlf=true` cannot convert them to CRLF and break the
+# golden comparison. This changes no semantics: the blobs are already LF.
+
+tests/fixtures/station_master/expected/*.csv text eol=lf

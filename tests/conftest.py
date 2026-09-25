@@ -26,6 +26,38 @@ def no_network(monkeypatch: pytest.MonkeyPatch) -> None:
     monkeypatch.setattr(socket, "getaddrinfo", refuse)
 
 
+@pytest.fixture
+def loopback_only(monkeypatch: pytest.MonkeyPatch) -> None:
+    """Allow loopback sockets (Starlette TestClient needs socketpair) but block the network.
+
+    Refuses external ``connect`` targets, remote ``create_connection`` and
+    all ``getaddrinfo``/``gethostbyname`` lookups. A regression reaching past
+    loopback fails loudly instead of going undetected.
+    """
+
+    import ipaddress
+
+    real_connect = socket.socket.connect
+
+    def guarded_connect(sock: socket.socket, address: Any) -> Any:
+        host = address[0] if isinstance(address, tuple) else address
+        try:
+            if not ipaddress.ip_address(str(host)).is_loopback:
+                raise AssertionError(f"non-loopback connect attempted: {host!r}")
+        except ValueError:
+            raise AssertionError(f"hostname connect attempted: {host!r}") from None
+        return real_connect(sock, address)
+
+    def refuse(*_: Any, **__: Any) -> Any:
+        raise AssertionError("network access attempted in an offline test")
+
+    monkeypatch.setattr(socket.socket, "connect", guarded_connect)
+    monkeypatch.setattr(socket.socket, "connect_ex", refuse)
+    monkeypatch.setattr(socket, "create_connection", refuse)
+    monkeypatch.setattr(socket, "getaddrinfo", refuse)
+    monkeypatch.setattr(socket, "gethostbyname", refuse)
+
+
 SensorsCsv = Callable[[Iterable[tuple[str, SensorType]]], Path]
 
 
