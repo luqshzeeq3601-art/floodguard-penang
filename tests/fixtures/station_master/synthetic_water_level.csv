@@ -1,0 +1,5 @@
+jps_internal_id,jps_display_station_id,station_name,state,district,main_basin,sub_river_basin,threshold_normal,threshold_alert,threshold_warning,threshold_danger,source_url,discovered_at
+SYN001,9990011WL,Sg. Synthetic di Alpha (F2),Pulau Pinang,Timur Laut Pulau Pinang,Sungai Sintetik A,Sg. Sintetik A,0.00,2.00,2.50,3.00,https://example.invalid/synthetic/water-level,2000-01-01T00:05:00+08:00
+SYN006,9990061WL,Synthetic Foxtrot,Pulau Pinang,Seberang Perai Tengah,Sungai Sintetik B,Sg. Sintetik B,1.00,3.00,3.50,4.00,https://example.invalid/synthetic/water-level,2000-01-01T00:05:00+08:00
+SYN007,9990071WL,Synthetic Golf WL,Pulau Pinang,Seberang Perai Selatan,Sungai Sintetik C,Sg. Sintetik C,0.00,1.00,1.20,1.50,https://example.invalid/synthetic/water-level,2000-01-01T00:05:00+08:00
+SYN011,9990111WL,Synthetic Juliet WL,Pulau Pinang,Barat Daya Pulau Pinang,Sungai Sintetik D,Sg. Sintetik D,0.00,0.50,0.70,0.90,https://example.invalid/synthetic/water-level,2000-01-01T00:05:00+08:00

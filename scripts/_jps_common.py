@@ -1,4 +1,4 @@
-"""Shared helpers for the JPS Public Infobanjir discovery scripts (stdlib only).
+"""Shared helpers for the JPS Public Infobanjir discovery scripts (stdlib + floodguard).
 
 Both the rainfall and water-level state views use the same page layout (state/district
 ``<select>``) and the same result-table conventions (rows start at ``<td data-th='No'>``,
@@ -19,8 +19,17 @@ from datetime import UTC, datetime
 from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any
-from urllib.parse import parse_qs, urlparse
 from zoneinfo import ZoneInfo
+
+# Pure parsing primitives live in the package; re-exported here unchanged.
+from floodguard.ingestion.adapters.jps_common import (
+    MISSING_SENTINEL,
+    NO_DATA_MARKER,
+    ResultTableParser,
+    SchemaError,
+)
+
+__all__ = ["MISSING_SENTINEL", "NO_DATA_MARKER", "ResultTableParser", "SchemaError"]
 
 BASE = "https://publicinfobanjir.water.gov.my"
 STATE_CODE = "PNG"
@@ -35,10 +44,6 @@ METADATA_DIR = REPO_ROOT / "data" / "metadata" / "jps"
 # data/metadata/jps/README.md. A row is "stale" when its latest observation is more than
 # this many minutes older than the newest observation in the same response.
 FG_STALE_AFTER_MINUTES = 180
-
-
-MISSING_SENTINEL = "-9999"
-NO_DATA_MARKER = "Tiada Data"  # listing body when a filter matches nothing
 
 
 @dataclass(frozen=True)
@@ -82,10 +87,6 @@ def fg_live_status(age_minutes: int | None, value_ok: bool, rule: LiveRule) -> s
     if age_minutes <= rule.stale_after_minutes:
         return "DELAYED"
     return "STALE"
-
-
-class SchemaError(ValueError):
-    """Upstream markup or content no longer matches the verified schema."""
 
 
 @dataclass(frozen=True)
@@ -135,52 +136,6 @@ def parse_state_page(html: str) -> StatePage:
         raise SchemaError("state page: selected state or district <select> options not found")
     m = re.search(r"Kemaskini Terakhir:\s*([0-9/]+ [0-9:]+)", html)
     return StatePage(p.state_label, tuple(p.districts), m.group(1) if m else None)
-
-
-class ResultTableParser(HTMLParser):
-    """Header texts, data rows (split on the ``data-th='No'`` cell) and per-row graph id.
-
-    Rows are delimited by their first cell because the rainfall fragment omits opening
-    ``<tr>`` tags. ``link_marker`` selects the graph link (e.g. ``rf-graph``, ``wl-graph``).
-    """
-
-    def __init__(self, link_marker: str) -> None:
-        super().__init__(convert_charrefs=True)
-        self.link_marker = link_marker
-        self.headers: list[str] = []
-        self.rows: list[list[str]] = []
-        self.link_ids: list[str | None] = []
-        self._in_th = False
-        self._in_td = False
-        self._buf: list[str] = []
-
-    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
-        a = dict(attrs)
-        if tag == "th":
-            self._in_th, self._buf = True, []
-        elif tag == "td":
-            if a.get("data-th") == "No":
-                self.rows.append([])
-                self.link_ids.append(None)
-            self._in_td, self._buf = True, []
-        elif tag == "a" and self._in_td and self.rows:
-            href = a.get("href") or ""
-            if self.link_marker in href:
-                ids = parse_qs(urlparse(href).query, keep_blank_values=True).get("stationid")
-                self.link_ids[-1] = ids[0] if ids else ""
-
-    def handle_endtag(self, tag: str) -> None:
-        if tag == "th" and self._in_th:
-            self.headers.append(" ".join("".join(self._buf).split()))
-            self._in_th = False
-        elif tag == "td" and self._in_td:
-            if self.rows:
-                self.rows[-1].append("".join(self._buf).strip())
-            self._in_td = False
-
-    def handle_data(self, data: str) -> None:
-        if self._in_th or self._in_td:
-            self._buf.append(data)
 
 
 def parse_result_table(

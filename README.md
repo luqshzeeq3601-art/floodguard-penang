@@ -66,6 +66,21 @@ Read in this order:
 
 Architecture decisions and their trade-offs: `docs/decisions/README.md`.
 
+## Data Sources and Disclaimer
+
+FloodGuard Penang is an independent, non-official research and portfolio project. It is not
+affiliated with, endorsed by, or a service of JPS (Department of Irrigation and Drainage
+Malaysia), MET Malaysia, NADMA or the Penang State Government. Its risk estimates are experimental
+model outputs, not official flood forecasts or warnings. Do not use it for safety decisions.
+
+Source terms differ: JPS Public Infobanjir content needs JPS's prior written consent for copying or
+redistribution (permission not yet obtained); Penang GeoHub layers carry no licence; the
+data.gov.my Weather API (MET Malaysia data) is CC BY 4.0. Third-party raw captures are therefore
+kept out of the repository. Details, per-use status and attribution: `docs/DATA_LICENSING_AND_ACCESS.md`.
+
+Weather forecast and warning data: MET Malaysia, via the data.gov.my Weather API, CC BY 4.0
+(https://creativecommons.org/licenses/by/4.0/); filtered to Pulau Pinang by FloodGuard.
+
 ## Development Setup
 
 Requires Python 3.11+ (pinned to 3.11 in `.python-version` for ML wheel compatibility).

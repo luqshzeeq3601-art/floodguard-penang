@@ -8,7 +8,23 @@ data/raw/**
 data/interim/**
 data/processed/**
 data/external/**
+# Phase 3 analysis outputs derived from JPS data (PERMISSION REQUIRED); local only.
+data/analysis/**
 !data/**/.gitkeep
+# Local builds derived from JPS metadata (PERMISSION REQUIRED); e.g. data/local/station_master/.
+data/local/
+
+# Third-party discovery captures whose redistribution rights are not granted or unknown stay local.
+# Each file is recorded (URL, retrieved_at, sha256) in data/metadata/RAW_EVIDENCE_MANIFEST.csv.
+# Exceptions: our own request logs and captures under a verified open licence
+# (see docs/DATA_LICENSING_AND_ACCESS.md, "Repository policy").
+data/metadata/*/raw/*
+!data/metadata/*/raw/probe_log_*.tsv
+!data/metadata/gis/raw/dosm_*.geojson
+!data/metadata/data_gov_my/raw/api_data-catalogue_*.json
+!data/metadata/data_gov_my/raw/catalogue_index_*.csv
+!data/metadata/metmalaysia/raw/forecast_*.json
+!data/metadata/metmalaysia/raw/warning_*.json
 
 # ML artifacts (root-anchored: must not hide src/floodguard/models/)
 /mlruns/

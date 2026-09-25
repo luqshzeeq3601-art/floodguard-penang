@@ -195,8 +195,10 @@ Exit codes: `0` ok, `2` schema change, `3` network failure.
 ## 9. Limitations
 
 - Source A and the SPHTN/GeoHub services are undocumented or unlicensed for reuse. JPS pages say
-  "Hakcipta Terpelihara"; the GeoHub items have empty licence fields. Terms review is the separate
-  Phase 1 licensing task.
+  "Hakcipta Terpelihara"; the GeoHub items have empty licence fields. Terms reviewed 2026-09-24 in
+  `docs/DATA_LICENSING_AND_ACCESS.md` (JPS: PERMISSION REQUIRED; GeoHub/SPHTN: UNKNOWN; DOSM:
+  open). The `raw/` captures from JPS, SPHTN, GeoHub and CKAN are local-only (git-ignored) and
+  listed in `data/metadata/RAW_EVIDENCE_MANIFEST.csv`.
 - Penang feature counts in B/C/D and the content of K and O were not checked, to avoid bulk or
   file downloads. `maps2.water.gov.my` was unreachable from this network.
 - Only 5 stations could be compared for threshold consistency (display-ID match). The SPHTN

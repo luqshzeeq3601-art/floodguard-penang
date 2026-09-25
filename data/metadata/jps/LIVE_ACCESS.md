@@ -150,4 +150,4 @@ Official JPS state listings → scheduled Python poll (5 min) → store raw resp
 - Source timezone (assumed +08:00).
 - Meaning of the page-footer time.
 - Rate limits beyond ~1 request/min (none were hit).
-- Licensing/terms for automated polling (separate Phase 1 task).
+- Licensing/terms for automated polling: no JPS permission exists; see `docs/DATA_LICENSING_AND_ACCESS.md` (PERMISSION REQUIRED). Raw snapshots are local-only (git-ignored).

@@ -1,0 +1,252 @@
+@import "tailwindcss";
+
+/*
+ * Design tokens (frontend/00_SHARED_DESIGN_SYSTEM.md, refined for WCAG 2.2 AA in frontend/design.md §6).
+ * Status hues have a "solid" (fills, dots, markers) and a darker "-text" shade for text.
+ * Components use these names only — never raw hex values.
+ */
+@theme static {
+  --font-sans: "Inter", "Geist", "SF Pro Text", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "Geist Mono", ui-monospace, "SF Mono", Consolas, monospace;
+
+  /* Warm light theme — airy off-whites instead of cool grays */
+  --color-canvas: #f8f9fb;
+  --color-surface: #ffffff;
+  --color-sidebar: #f1f4f9;
+  --color-subtle: #f5f7fa;
+  --color-sunken: #edf0f5;
+  --color-line: #e2e6ed;
+  --color-line-strong: #8891a5;
+  --color-ink: #0f172a;
+  --color-ink-2: #475569;
+  --color-ink-3: #64748b;
+  --color-ink-disabled: #94a3b8;
+
+  --color-primary: #3b82f6;
+  --color-primary-hover: #2563eb;
+  --color-primary-active: #1d4ed8;
+  --color-primary-subtle: #eff6ff;
+  --color-primary-line: #bfdbfe;
+  --color-hover: #f0f3f8;
+
+  --color-telemetry: #0ea5e9;
+  --color-telemetry-text: #0369a1;
+  --color-telemetry-subtle: #f0f9ff;
+
+  --color-normal: #22c55e;
+  --color-normal-text: #15803d;
+  --color-normal-subtle: #f0fdf4;
+  --color-caution: #fbbf24;
+  --color-caution-text: #b45309;
+  --color-caution-subtle: #fffbeb;
+  --color-warning: #f97316;
+  --color-warning-text: #c2410c;
+  --color-warning-subtle: #fff7ed;
+  --color-danger: #ef4444;
+  --color-danger-text: #b91c1c;
+  --color-danger-subtle: #fef2f2;
+  --color-neutral: #94a3b8;
+  --color-neutral-text: #475569;
+  --color-neutral-subtle: #f1f5f9;
+
+  --color-derived: #7c3aed;
+  --color-derived-subtle: #f5f3ff;
+
+  --color-chart-grid: #eef0f4;
+  --color-chart-axis: #8891a5;
+  --color-chart-level: #2563eb;
+  --color-chart-rain: #0ea5e9;
+  --color-chart-forecast: #7c3aed;
+
+  --radius-chip: 6px;
+  --radius-control: 10px;
+  --radius-panel: 16px;
+  --radius-shell: 28px;
+
+  --text-2xs: 11px;
+  --text-2xs--line-height: 16px;
+  --text-xs: 13px;
+  --text-xs--line-height: 18px;
+  --text-sm: 14px;
+  --text-sm--line-height: 20px;
+  --text-base: 14px;
+  --text-base--line-height: 20px;
+  --text-md: 16px;
+  --text-md--line-height: 24px;
+  --text-lg: 18px;
+  --text-lg--line-height: 26px;
+  --text-xl: 20px;
+  --text-xl--line-height: 28px;
+  --text-metric: 26px;
+  --text-metric--line-height: 32px;
+  --text-title: clamp(22px, 1.2vw + 14px, 30px);
+  --text-title--line-height: 1.2;
+
+  /* Elevation scale: softer, warmer shadows */
+  --shadow-shell: 0 1px 3px rgb(15 23 42 / 0.03), 0 8px 32px rgb(15 23 42 / 0.05);
+  --shadow-raised: 0 1px 2px rgb(15 23 42 / 0.03), 0 4px 16px -4px rgb(15 23 42 / 0.08);
+  --shadow-lift: 0 2px 4px rgb(15 23 42 / 0.04), 0 10px 24px -6px rgb(15 23 42 / 0.12);
+  --shadow-pop: 0 4px 12px rgb(15 23 42 / 0.06), 0 1px 3px rgb(15 23 42 / 0.04);
+  --shadow-overlay: 0 12px 28px rgb(15 23 42 / 0.10);
+
+  --ease-out: cubic-bezier(0.2, 0, 0, 1);
+
+  --breakpoint-3xl: 120rem; /* 1920px; rem so Tailwind can order it after the default breakpoints */
+}
+
+@layer base {
+  html {
+    background: var(--color-canvas);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    margin: 0;
+    background: var(--color-canvas);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+  [lang="ms"] {
+    font-style: normal;
+  }
+
+  /* Sleek modern scrollbars */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #d1d5db transparent;
+  }
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #d1d5db;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #9ca3af;
+  }
+}
+
+@layer utilities {
+  /* Inter with tabular figures; mono is reserved for IDs and model versions (design.md §5). */
+  .num {
+    font-variant-numeric: tabular-nums;
+  }
+  /* Clickable cards lift 1px on hover; static panels never move. */
+  .lift {
+    transition:
+      transform 180ms var(--ease-out),
+      box-shadow 180ms var(--ease-out),
+      border-color 180ms var(--ease-out);
+  }
+  .lift:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-lift);
+  }
+  /* Data refresh crossfade. */
+  .fade-in {
+    animation: fade-in 200ms var(--ease-out);
+  }
+  .slide-in-right {
+    animation: slide-right 250ms var(--ease-out);
+  }
+  .scale-in {
+    animation: scale-up 200ms var(--ease-out);
+  }
+  .metric-pulse {
+    animation: pulse-in 400ms var(--ease-out);
+  }
+  .focus-inset:focus-visible {
+    outline-offset: -2px;
+  }
+  .transition-ui {
+    transition:
+      background-color 160ms ease,
+      border-color 160ms ease,
+      color 160ms ease,
+      transform 160ms ease,
+      box-shadow 160ms ease;
+  }
+  /* Staggered entrance for lists and grids */
+  .stagger-in > * {
+    opacity: 0;
+    transform: translateY(8px);
+    animation: stagger-up 300ms var(--ease-out) forwards;
+  }
+  .stagger-in > *:nth-child(1) { animation-delay: 0ms; }
+  .stagger-in > *:nth-child(2) { animation-delay: 35ms; }
+  .stagger-in > *:nth-child(3) { animation-delay: 70ms; }
+  .stagger-in > *:nth-child(4) { animation-delay: 105ms; }
+  .stagger-in > *:nth-child(5) { animation-delay: 140ms; }
+  .stagger-in > *:nth-child(6) { animation-delay: 175ms; }
+  .stagger-in > *:nth-child(n+7) { animation-delay: 210ms; }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slide-right {
+  from { opacity: 0; transform: translateX(16px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes scale-up {
+  from { opacity: 0; transform: scale(0.96); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes pulse-in {
+  from { transform: scale(0.96); }
+  50% { transform: scale(1.02); }
+  to { transform: scale(1); }
+}
+
+@keyframes stagger-up {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lift:hover {
+    transform: none;
+  }
+  .stagger-in > * {
+    opacity: 1 !important;
+    transform: none !important;
+    animation: none !important;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0ms !important;
+    transition-duration: 0ms !important;
+  }
+}
+
+/* MapLibre controls restyled to the token set. */
+.maplibregl-ctrl-group {
+  border-radius: var(--radius-control) !important;
+  box-shadow: var(--shadow-pop) !important;
+  border: 1px solid var(--color-line);
+}
+.maplibregl-ctrl-group button {
+  width: 36px !important;
+  height: 36px !important;
+}
+.maplibregl-ctrl-attrib {
+  font-size: 11px;
+}
+/* Attribution stays behind its (i) button until hovered or focused, so it never covers small maps. */
+.maplibregl-ctrl-attrib.maplibregl-compact:not(:hover):not(:focus-within) .maplibregl-ctrl-attrib-inner {
+  display: none;
+}

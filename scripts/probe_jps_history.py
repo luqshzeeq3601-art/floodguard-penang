@@ -28,11 +28,13 @@ from urllib.parse import urlencode
 import _jps_common as jc
 from _jps_common import SchemaError
 
+from floodguard.ingestion.adapters.jps_common import HISTORY_VALUE_KEYS
+from floodguard.ingestion.adapters.jps_common import NO_RESULT_MARKER as NO_RESULT_MARKER
+
 SOURCE_TIME_FORMAT = "%d/%m/%Y %H:%M"
 DEFAULT_MAX_DAYS = 7
 WIDE_MAX_DAYS = 31
 MISSING_SENTINEL = jc.MISSING_SENTINEL
-NO_RESULT_MARKER = "No result"
 NO_RESULT_KEY = "fg_no_result"
 _T0000 = time(0, 0)
 _T0005 = time(0, 5)
@@ -51,13 +53,13 @@ SENSORS = {
     "rainfall": Sensor(
         "/wp-content/themes/enlighten/query/searchresultrainfalldthourlylead.php",
         True,
-        ("dt", "raw", "clean", "chourly", "cdaily", "tdaily", "cyearly", "c15min"),
+        HISTORY_VALUE_KEYS["rainfall"],
         "clean",
     ),
     "water_level": Sensor(
         "/wp-content/themes/enlighten/query/searchresultwaterleveldtlead.php",
         False,
-        ("dt", "clean", "raw", "ecm", "final", "severity"),
+        HISTORY_VALUE_KEYS["water_level"],
         "final",
     ),
 }

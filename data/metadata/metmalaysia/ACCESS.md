@@ -174,5 +174,7 @@ committed** (sizes 0.1–0.9 MB).
 - Meaning of `valid_from` < `issued` and of expired records still being returned.
 - `api.met.gov.my` content, schema, archive and terms: blocked by registration.
 - data.gov.my full Terms of Use text is unavailable (footer link `#`). CC BY 4.0 is stated only in the FAQ.
+  Re-checked 2026-09-24 with attribution wording and the exact met.gov.my copyright text in
+  `docs/DATA_LICENSING_AND_ACCESS.md`. The `api.met.gov.my` 401 capture in `raw/` is local-only (git-ignored).
 - Python's CA bundle rejects `api.met.gov.my`'s chain, so a future client may need the OS trust store.
 - The single-session sample (13 minutes) says nothing about long-term availability or schema stability.

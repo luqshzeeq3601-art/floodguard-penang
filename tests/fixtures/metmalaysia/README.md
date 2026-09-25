@@ -10,3 +10,7 @@ built inside the tests by mutating these payloads and are labelled `synthetic` t
 | `weather_warning_20260924T112926+0800.json` | `https://api.data.gov.my/weather/warning` | none: full body, byte-for-byte (7,962 B, 4 records) |
 
 Evidence and context: `data/metadata/metmalaysia/ACCESS.md`.
+
+Licence: data.gov.my open data, CC BY 4.0 (developer.data.gov.my/faq, checked 2026-09-24).
+Attribution: forecast and warning data by MET Malaysia (Malaysian Meteorological Department), via
+the data.gov.my Weather API, CC BY 4.0; trimmed as described above.

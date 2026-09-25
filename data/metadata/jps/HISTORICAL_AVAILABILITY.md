@@ -163,7 +163,7 @@ Recorded as **"source timezone unspecified; consistent with Asia/Kuala_Lumpur"**
 - Server behaviour for windows > 31 days (not tested by design).
 - Meaning of `tdaily`, `chourly`, `c15min`, ECM, `ERROR`, and full severity code list.
 - Whether thresholds are historical or current-only.
-- Licensing/terms for automated historical retrieval (separate Phase 1 task).
+- Licensing/terms for automated historical retrieval: no JPS permission exists; see `docs/DATA_LICENSING_AND_ACCESS.md` (PERMISSION REQUIRED). Raw `history_*` captures are local-only (git-ignored).
 
 ## Reproduce one probe
 

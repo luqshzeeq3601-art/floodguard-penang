@@ -133,4 +133,6 @@ Unlogged `curl` requests: `data.gov.my/data-catalogue` 200 (03:49:02Z), `/dashbo
   Only the two Penang page payloads were profiled.
 - The daily-rainfall day boundary, the units, gap filling and QC are undocumented.
 - myMETdata content, price and terms were not checked.
-- A CC BY 4.0 licence for dashboard-only data is not explicitly stated.
+- A CC BY 4.0 licence for dashboard-only data is not explicitly stated (re-checked 2026-09-24:
+  UNKNOWN, see `docs/DATA_LICENSING_AND_ACCESS.md`). The dashboard payloads and the
+  datagovmy-meta JSON in `raw/` are local-only (git-ignored); see `data/metadata/RAW_EVIDENCE_MANIFEST.csv`.

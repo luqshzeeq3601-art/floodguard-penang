@@ -86,8 +86,10 @@ fg_freshness_minutes, fg_freshness_status, source_row, source_url, discovered_at
 
 Threshold units: the threshold headers carry **no unit label**. They sit beside the "Aras Air (m)"
 column and, for the one station sampled (`27587`), equal the `info.normal/alert/warning/danger`
-values in the graph JSON (4 / 5.2 / 5.5 / 6). The metre unit is therefore likely but not stated,
-so column names carry no `_m` suffix.
+values in the graph JSON (4 / 5.2 / 5.5 / 6). The unit is metres, confirmed by the official
+graph-page tooltip ("Normal: ...m Waspada: ...m Amaran: ...m Bahaya: ...m"; see
+`HISTORICAL_AVAILABILITY.md` and `docs/UNIT_POLICY.md`). The inventory column names keep no `_m`
+suffix because they copy the unlabelled listing headers.
 
 Results (run 02:01:23): 22 rows, 22 unique `jps_internal_id`; reporting 21, stale 1 (`26460`
 Sg. Kerian di Sri Sanglang (F2), 23/09/2026 15:15, 630 min); newest row 24/09/2026 01:45.
@@ -169,7 +171,7 @@ Verified 2026-09-24. Full findings: [`LIVE_ACCESS.md`](LIVE_ACCESS.md); one-shot
   numeric-format changes; `3` on network failure.
 - `jps_internal_id` uniqueness is observed, not guaranteed; `jps_display_station_id` is unreliable.
 - One night's snapshots only; offline stations may disappear from listings rather than go stale.
-- Licensing/terms of use not reviewed (separate Phase 1 task).
+- Licensing/terms of use reviewed 2026-09-24: `docs/DATA_LICENSING_AND_ACCESS.md` (JPS use is PERMISSION REQUIRED; raw captures are local-only, see `data/metadata/RAW_EVIDENCE_MANIFEST.csv`).
 
 ## Reproduce
 

@@ -1,0 +1,11 @@
+jps_internal_id,jps_display_station_id,station_name,state,district,source_url,discovered_at
+SYN001,9990011RF,Synthetic Alpha (F2),Pulau Pinang,Timur Laut Pulau Pinang,https://example.invalid/synthetic/rainfall,2000-01-01T00:00:00+08:00
+SYN002,9990021RF,Synthetic Bravo (F2),Pulau Pinang,Seberang Perai Utara,https://example.invalid/synthetic/rainfall,2000-01-01T00:00:00+08:00
+SYN003,9990021RF,Synthetic Charlie,Pulau Pinang,Seberang Perai Utara,https://example.invalid/synthetic/rainfall,2000-01-01T00:00:00+08:00
+SYN004,No Data,Synthetic Delta,Pulau Pinang,Barat Daya Pulau Pinang,https://example.invalid/synthetic/rainfall,2000-01-01T00:00:00+08:00
+ SYN005_,,Synthetic Echo,Pulau Pinang,Timur Laut Pulau Pinang,https://example.invalid/synthetic/rainfall,2000-01-01T00:00:00+08:00
+SYN007,9990071RF,Synthetic Golf (F2),Pulau Pinang,Seberang Perai Tengah,https://example.invalid/synthetic/rainfall,2000-01-01T00:00:00+08:00
+SYN008,9990081RF,Synthetic Hotel,Pulau Pinang,Seberang Perai Selatan,https://example.invalid/synthetic/rainfall,2000-01-01T00:00:00+08:00
+SYN009,9990091RF,Synthetic India A,Pulau Pinang,Seberang Perai Utara,https://example.invalid/synthetic/rainfall,2000-01-01T00:00:00+08:00
+SYN010,9990101RF,Synthetic India B,Pulau Pinang,Seberang Perai Utara,https://example.invalid/synthetic/rainfall,2000-01-01T00:00:00+08:00
+SYN011,9990111RF,Synthetic Juliet,Pulau Pinang,Barat Daya Pulau Pinang,https://example.invalid/synthetic/rainfall,2000-01-01T00:00:00+08:00
