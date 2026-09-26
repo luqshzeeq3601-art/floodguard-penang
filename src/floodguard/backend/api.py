@@ -11,6 +11,7 @@ Endpoints:
 /api/v1/predictions         stored forecasts (sensor + horizon, latest first)
 /api/v1/model               registry state: explicit no-production-model
 /api/v1/alerts              stored alerts for a sensor
+/api/v1/monitoring/ingestion factual live-ingestion counters (Phase 10)
 ```
 
 All handlers use the repository layer (parameter-bound ORM only), return
@@ -46,6 +47,7 @@ from floodguard.backend.repositories import (
 from floodguard.backend.schemas import (
     AlertResponse,
     HealthResponse,
+    IngestionMetricsResponse,
     ModelInfoResponse,
     ObservationPage,
     ObservationResponse,
@@ -79,8 +81,16 @@ def create_session_factory(config: DatabaseConfig) -> sessionmaker[Session]:
     return sessionmaker(bind=engine, class_=Session, expire_on_commit=False)
 
 
-def create_app(session_factory: Callable[[], Iterator[Session]] | sessionmaker[Session]) -> FastAPI:
-    """Application factory (session factory injectable for tests)."""
+def create_app(
+    session_factory: Callable[[], Iterator[Session]] | sessionmaker[Session],
+    ingestion_metrics_provider: Callable[[], dict[str, Any]] | None = None,
+) -> FastAPI:
+    """Application factory (session factory injectable for tests).
+
+    ``ingestion_metrics_provider`` supplies factual Phase 10 live-ingestion
+    counters for ``/api/v1/monitoring/ingestion``; when None the endpoint
+    reports zero counters with an explicit notice (no health verdict).
+    """
     app = FastAPI(title="FloodGuard Penang API", version=API_VERSION)
 
     def get_session() -> Iterator[Session]:
@@ -244,6 +254,22 @@ def create_app(session_factory: Callable[[], Iterator[Session]] | sessionmaker[S
             }
             for row in rows
         ]
+
+    @app.get("/api/v1/monitoring/ingestion", response_model=IngestionMetricsResponse)
+    def get_ingestion_metrics() -> dict[str, Any]:
+        # Factual counters only; never a freshness/health verdict.
+        if ingestion_metrics_provider is None:
+            return IngestionMetricsResponse().model_dump()
+        try:
+            supplied = dict(ingestion_metrics_provider())
+        except Exception:
+            return IngestionMetricsResponse().model_dump()
+        supplied.setdefault("schema_version", "live_metrics/v1")
+        supplied.setdefault(
+            "notice",
+            "Factual engineering counters only; no freshness/health verdict is implied.",
+        )
+        return IngestionMetricsResponse(**supplied).model_dump()
 
     return app
 

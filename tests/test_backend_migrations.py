@@ -9,7 +9,6 @@ from typing import Any
 import pytest
 from sqlalchemy import create_engine, inspect
 from sqlalchemy.schema import CreateTable
-from typing import Any
 
 from floodguard.backend.models import Base
 

@@ -103,3 +103,22 @@ class AlertResponse(BaseModel):
     status: str
     message: str
     created_at: datetime
+
+
+class IngestionMetricsResponse(BaseModel):
+    """Factual live-ingestion engineering metrics (Phase 10, no health verdicts)."""
+
+    schema_version: str = "live_metrics/v1"
+    poll_attempts: int = 0
+    successful_polls: int = 0
+    failed_polls: int = 0
+    blocked_polls: int = 0
+    records_received: int = 0
+    canonical_records_inserted: int = 0
+    duplicates: int = 0
+    quarantined_rows: int = 0
+    total_ingestion_duration_seconds: float = 0.0
+    mean_poll_duration_seconds: float | None = None
+    stage_seconds: dict[str, float] = Field(default_factory=dict)
+    last_successful_retrieval: str | None = None
+    notice: str = "Factual engineering counters only; no freshness/health verdict is implied."

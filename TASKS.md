@@ -118,24 +118,28 @@ Phase 8 is **software/methodology complete** except live PostgreSQL/PostGIS runt
 
 ## Phase 9 — Streamlit
 
-- [ ] TODO Overview.
-- [ ] TODO Live Monitoring.
-- [ ] TODO Flood Prediction.
-- [ ] TODO Station Analysis.
-- [ ] TODO Model Performance.
-- [ ] TODO SHAP Explainability.
-- [ ] TODO Data Quality.
-- [ ] TODO Model Drift.
+- [x] DONE Overview. (Backend status, site/sensor coverage, model eligibility states; `streamlit_app/pages/1_Overview.py` + `viewmodels.overview_vm`; `tests/test_dashboard_viewmodels.py`. See `docs/PHASE9_STREAMLIT.md` §2.)
+- [x] DONE Live Monitoring. (Latest observation per sensor with factual age-in-minutes; cached per-sensor fetches; per-sensor failures surfaced as unknown; no freshness verdicts. `streamlit_app/pages/2_Live_Monitoring.py`; `tests/test_dashboard_viewmodels.py`. See `docs/PHASE9_STREAMLIT.md` §2.)
+- [x] DONE Flood Prediction. (Stored forecasts with evidence labels; stored alert records expander (records only); empty when none. `streamlit_app/pages/3_Flood_Prediction.py`. See `docs/PHASE9_STREAMLIT.md` §2.)
+- [x] DONE Station Analysis. (Info, WGS84 map point, site reference thresholds with provenance + NORMAL excluded, gap-honest charts with NaN breaks. `streamlit_app/pages/4_Station_Analysis.py`. See `docs/PHASE9_STREAMLIT.md` §2.)
+- [x] DONE Model Performance. (Status verbatim, targets labeled goals, families seen in storage; no synthetic KPIs. `streamlit_app/pages/5_Model_Performance.py`. See `docs/PHASE9_STREAMLIT.md` §2.)
+- [x] DONE SHAP Explainability. (Supported empty state: no eligible model; contributions never causality. `streamlit_app/pages/6_SHAP_Explainability.py`. See `docs/PHASE9_STREAMLIT.md` §2.)
+- [x] DONE Data Quality. (Established flag vocabulary, usable/missing/zero counts, unresolved-source evidence label. `streamlit_app/pages/7_Data_Quality.py`. See `docs/PHASE9_STREAMLIT.md` §2.)
+- [x] DONE Model Drift. (Prerequisites-unmet empty state; station-volume context only, never drift verdicts. `streamlit_app/pages/8_Model_Drift.py`. See `docs/PHASE9_STREAMLIT.md` §2.)
+
+Phase 9 is **software/methodology complete**; no live data, predictions, or model performance is claimed. Shared: `src/floodguard/dashboard/` (typed client, config, formatting, pure view-models); `streamlit_app/` (Home, shared helpers, 8 thin pages). Independent audit: no HIGH, 2 MEDIUM + 10 LOW fixed/verified. New `dashboard` extra (streamlit + httpx). Streamlit smoke verified (boots headless, health `ok`). Evidence: `docs/PHASE9_STREAMLIT.md`, `docs/PHASE9_COMPLETION.md`. First Phase 10 task (`Implement polling/scheduled ingestion first.`) NOT STARTED.
 
 ## Phase 10 — Live Ingestion
 
-- [ ] TODO Implement polling/scheduled ingestion first.
-- [ ] TODO Measure ingestion latency.
-- [ ] TODO Add stale-station detection.
-- [ ] TODO Add idempotency.
-- [ ] TODO Decide whether Kafka/MQTT is justified.
-- [ ] TODO Live inference pipeline.
-- [ ] TODO Prediction persistence.
+- [x] DONE Implement polling/scheduled ingestion first. (Scheduler + permission-gated HTTP + raw immutable storage + normalize/validate + idempotent DB writes; `src/floodguard/live/{config,http,scheduler,runner,runs}.py` + `scripts/run_live_poll.py`; JPS stays BLOCKED_PERMISSION without a permission record; synthetic-fixture tests in `tests/test_live_polling.py`. See `docs/PHASE10_LIVE_INGESTION.md` §2–3.)
+- [x] DONE Measure ingestion latency. (Factual counters + per-stage durations + last retrieval; `src/floodguard/live/metrics.py` + `/api/v1/monitoring/ingestion` + dashboard `get_ingestion_metrics`; no health verdicts; `tests/test_live_metrics.py` + `tests/test_live_api.py`. See `docs/PHASE10_LIVE_INGESTION.md` §4.)
+- [x] DONE Add stale-station detection. (Versioned source/sensor-aware `stale_policy/v1`; F2 cadence-based, unknown cadence yields UNKNOWN; dashboard keeps factual age only; `src/floodguard/live/staleness.py`; `tests/test_live_staleness.py`. See `docs/PHASE10_LIVE_INGESTION.md` §5.)
+- [x] DONE Add idempotency. (Raw + canonical + run + scheduler-overlap + restart-recovery guarantees; DUPLICATE re-ensures the DB; Decimal scale fix; `src/floodguard/live/idempotency.py`; `tests/test_live_idempotency.py`. See `docs/PHASE10_LIVE_INGESTION.md` §6.)
+- [x] DONE Decide whether Kafka/MQTT is justified. (Verdict NOT_JUSTIFIED at 2 req/5 min, 576/day, 15-min cadence; revisit thresholds recorded; no streaming code/deps; `src/floodguard/live/streaming.py`; `tests/test_live_streaming.py`. See `docs/PHASE10_LIVE_INGESTION.md` §7.)
+- [x] DONE Live inference pipeline. (Enforces NO_ELIGIBLE_MODEL/NO_ELIGIBLE_FORECAST_MODEL; explicit SKIPPED_NO_ELIGIBLE_MODEL per +30/+60/+120; no synthetic models; `src/floodguard/live/inference.py`; `tests/test_live_inference.py`. See `docs/PHASE10_LIVE_INGESTION.md` §8.)
+- [x] DONE Prediction persistence. (Transactional via PredictionRepository with run_id/site/label/lineage guards; live no-model path persists zero rows; `src/floodguard/live/persistence.py`; `tests/test_live_persistence.py`. See `docs/PHASE10_LIVE_INGESTION.md` §9.)
+
+Phase 10 is **software/methodology complete**; committed tests and final smoke use synthetic fixtures/mocked transports only (one unintended real JPS GET during smoke development, discarded, disclosed in `docs/PHASE10_COMPLETION.md` §3). Shared: `src/floodguard/live/` (11 modules); backend `/api/v1/monitoring/ingestion`; dashboard client method; `.env.example` live block; `scripts/run_live_poll.py`. Independent audit: no HIGH, 2 MEDIUM + 1 temporal-registry finding fixed. Evidence: `docs/PHASE10_LIVE_INGESTION.md`, `docs/PHASE10_COMPLETION.md`. First Phase 11 task (`Penang GIS map.`) NOT STARTED.
 
 ## Phase 11 — React UI + Alerts
 

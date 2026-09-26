@@ -6,14 +6,6 @@ from decimal import Decimal
 
 import pytest
 from sqlalchemy.orm import Session, sessionmaker
-from tests.backend_helpers import (
-    make_engine,
-    make_observation,
-    make_sensor,
-    make_site,
-    make_threshold,
-    utc,
-)
 
 from floodguard.backend import models
 from floodguard.backend.models import Base
@@ -27,6 +19,14 @@ from floodguard.backend.repositories import (
     RepositoryError,
     SensorRepository,
     SiteRepository,
+)
+from tests.backend_helpers import (
+    make_engine,
+    make_observation,
+    make_sensor,
+    make_site,
+    make_threshold,
+    utc,
 )
 
 pytestmark = pytest.mark.usefixtures("no_network")

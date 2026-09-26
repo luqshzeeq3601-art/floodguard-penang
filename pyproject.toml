@@ -41,6 +41,13 @@ backend = [
     "httpx>=0.27",
     "uvicorn>=0.30",
 ]
+# Phase 9 dashboard: Streamlit internal analytics UI (tests cover pure
+# view-models/client; the app itself needs no live server for unit tests).
+# httpx is the dashboard HTTP transport (shared with the backend extra).
+dashboard = [
+    "streamlit>=1.38",
+    "httpx>=0.27",
+]
 
 [dependency-groups]
 dev = [

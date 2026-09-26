@@ -2,10 +2,15 @@
 
 from __future__ import annotations
 
+from typing import Any
+
 import pytest
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.schema import CreateTable
-from typing import Any
+
+from floodguard.backend import models
+from floodguard.backend.models import Base
+from floodguard.station_master import SensorType, ThresholdType
 from tests.backend_helpers import (
     make_engine,
     make_observation,
@@ -13,10 +18,6 @@ from tests.backend_helpers import (
     make_site,
     make_threshold,
 )
-
-from floodguard.backend import models
-from floodguard.backend.models import Base
-from floodguard.station_master import SensorType, ThresholdType
 
 pytestmark = pytest.mark.usefixtures("no_network")
 

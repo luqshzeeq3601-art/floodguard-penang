@@ -70,9 +70,9 @@ def test_postgis_extension_and_migrations() -> None:
 def test_geometry_storage_srid_and_bbox() -> None:
     assert TEST_URL is not None
     from sqlalchemy.orm import Session, sessionmaker
-    from tests.backend_helpers import make_site
 
     from floodguard.backend.models import Site
+    from tests.backend_helpers import make_site
 
     engine = create_engine(TEST_URL, future=True)
     from pathlib import Path
@@ -92,11 +92,13 @@ def test_geometry_storage_srid_and_bbox() -> None:
         srid = session.execute(
             text("SELECT ST_SRID(geom) FROM sites WHERE fg_site_id = 'site-001'")
         ).scalar()
-        assert srid is not None and int(str(srid)) == 4326
+        assert srid is not None
+        assert int(str(srid)) == 4326
         count = session.execute(
             text("SELECT COUNT(*) FROM sites WHERE geom && ST_MakeEnvelope(100, 5, 101, 6, 4326)")
         ).scalar()
-        assert count is not None and int(str(count)) == 1
+        assert count is not None
+        assert int(str(count)) == 1
         assert session.query(Site).count() == 1
         session.close()
     finally:
